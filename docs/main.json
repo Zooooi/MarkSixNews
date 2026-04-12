@@ -1,23 +1,23 @@
 {
-	"description" : "新聞推送系統配置說明：enable 為總開關；delayHours 單位為小時；specificTime 格式為 YYYY-MM-DD HH:mm:ss；maxCount -1 為無限次。",
-	"news_list" : [
-		{
-			"id" : "global_announcement_2026",
-			"html_url" : "news/first.html",
-			"policy" : {
-				"enable" : true,
-				"releaseOnly" : false,
-				"specificTime" : "",
-				"showOnStart" : true,
-				"delayHours" : 0.0,
-				"intervalHours" : 24,
-				"maxCount" : 1
-			},
-			"layout" : {
-				"width" : 0,
-				"height" : 0,
-				"padding" : 0
-			}
-		}
-	]
+  "news_list": [
+    {
+      "id": "old_event_2025",
+      "html_url": "...",
+      "policy": { "enable": false } 
+    },
+    {
+      "id": "new_event_2026",
+      "html_url": "https://...",
+      "policy": {
+        "enable": true,
+        "releaseOnly": false,
+        "specificTime": "",
+        "showOnStart": true,
+        "delayHours": 0.05,
+        "intervalHours": 12,
+        "maxCount": 1
+      },
+      "layout": { "width": 0, "height": 0, "padding": 16.0 }
+    }
+  ]
 }
