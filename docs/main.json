@@ -1,29 +1,5 @@
 {
 	"news_list" : [
-		{
-			"id" : "old_event_2025",
-			"html_url" : "...",
-			"policy" : {
-				"enable" : false
-			}
-		},
-		{
-			"id" : "new_event_2026",
-			"html_url" : "index.html",
-			"policy" : {
-				"enable" : true,
-				"releaseOnly" : false,
-				"specificTime" : "",
-				"showOnStart" : true,
-				"delayHours" : 0,
-				"intervalHours" : 24,
-				"maxCount" : 3
-			},
-			"layout" : {
-				"width" : 0,
-				"height" : 0,
-				"padding" : 16.0
-			}
-		}
+
 	]
 }
