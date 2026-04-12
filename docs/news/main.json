@@ -1,0 +1,23 @@
+{
+  "description": "新聞推送系統配置說明：enable 為總開關；delayHours 單位為小時；specificTime 格式為 YYYY-MM-DD HH:mm:ss；maxCount -1 為無限次。",
+  "news_list": [
+    {
+      "id": "global_announcement_2026",
+      "html_url": "https://yourname.github.io/news/update.html",
+      "policy": {
+        "enable": true,
+        "releaseOnly": false,
+        "specificTime": "2026-04-15 10:00:00",
+        "showOnStart": true,
+        "delayHours": 0.0,
+        "intervalHours": 24,
+        "maxCount": 3
+      },
+      "layout": {
+        "width": 350.0,
+        "height": 500.0,
+        "padding": 20.0
+      }
+    }
+  ]
+}
