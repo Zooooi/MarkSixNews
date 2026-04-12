@@ -15,9 +15,9 @@
 				"releaseOnly" : false,
 				"specificTime" : "",
 				"showOnStart" : true,
-				"delayHours" : 0.05,
-				"intervalHours" : 12,
-				"maxCount" : 1
+				"delayHours" : 0,
+				"intervalHours" : 24,
+				"maxCount" : 3
 			},
 			"layout" : {
 				"width" : 0,
