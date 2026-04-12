@@ -79,18 +79,6 @@
 
 ---
 
-## 📦 依賴插件
-```yaml
-dependencies:
-  http: ^1.2.0
-  shared_preferences: ^2.2.2
-  flutter_hooks: ^0.20.0
-  flutter_widget_from_html: ^0.10.0
-  xml: ^6.3.0 # 如果仍需處理 XML 格式
-```
-
----
-
 ## ⚠️ 注意事項
 1.  **時間格式**：`specificTime` 務必遵循標準格式，否則 `DateTime.tryParse` 會失敗。
 2.  **HTML 內容**：建議 HTML 內部使用相對路徑或 CDN 連結，並確保圖片設有 `max-width: 100%` 以適應行動端螢幕。
