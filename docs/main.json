@@ -11,7 +11,7 @@
 			"id" : "new_event_2026",
 			"html_url" : "index.html",
 			"policy" : {
-				"enable" : false,
+				"enable" : true,
 				"releaseOnly" : false,
 				"specificTime" : "",
 				"showOnStart" : true,
