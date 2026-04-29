@@ -12,12 +12,13 @@
 			"html_url" : "index.html",
 			"policy" : {
 				"enable" : true,
-				"releaseOnly" : false,
+				"release" : false,
 				"specificTime" : "",
 				"showOnStart" : true,
 				"delayHours" : 0.05,
 				"intervalHours" : 12,
-				"maxCount" : 1
+				"maxCount" : 1,
+        		"expired" : "2026-12-31"
 			},
 			"layout" : {
 				"width" : 0,

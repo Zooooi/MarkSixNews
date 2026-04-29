@@ -30,12 +30,13 @@
       "html_url": "https://yourname.github.io/pages/promo.html",
       "policy": {
         "enable": true,            
-        "releaseOnly": false,      
+        "release": false,      
         "specificTime": "2026-04-15 10:00:00", 
         "showOnStart": true,       
         "delayHours": 0.0,         
         "intervalHours": 24,       
-        "maxCount": 3              
+        "maxCount": 3,
+        "expired":"2026-12-31"             
       },
       "layout": {
         "width": 350.0,            
@@ -52,7 +53,7 @@
 | :--- | :--- | :--- |
 | `id` | String | 唯一識別碼。修改此 ID 會重置用戶的閱讀計數。 |
 | `enable` | bool | 總開關。設為 `false` 時，App 會自動刪除該 ID 的本地紀錄。 |
-| `releaseOnly` | bool | 設為 `true` 時，開發模式下不會彈出。 |
+| `release` | bool | 設為 `true` 時，開發模式下不會彈出。 |
 | `specificTime` | String | 格式 `YYYY-MM-DD HH:mm:ss`。若設定且時間未到，將自動倒數。 |
 | `delayHours` | double | 啟動 App 後等待多久（小時）。`0.5` 代表 30 分鐘。 |
 | `intervalHours`| int | 兩次彈窗間隔的小時數。 |
