@@ -7,7 +7,7 @@
 			"action_value": "https://google.com",
 			"policy": {
 				"enable": "true",
-				"release": "true",
+				"release": "false",
 				"specificTime": "",
 				"showOnStart": "true",
 				"delayHours": "0.00",
