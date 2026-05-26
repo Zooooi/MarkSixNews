@@ -6,16 +6,16 @@
 			"action_type": "external_url",
 			"action_value": "https://google.com",
 			"policy": {
-				"enable": true,
-				"release": false,
+				"enable": "true",
+				"release": "false",
 				"specificTime": "",
-				"showOnStart": true,
+				"showOnStart": "true",
 				"delayHours": "0.01",
 				"intervalHours": "12",
 				"maxCount": "3",
 				"maxCountPerDay": "1",
-				"force": false,
-				"showNeverAgain": true,
+				"force": "false",
+				"showNeverAgain": "true",
 				"expired": "2026-12-31"
 			},
 			"layout": {
