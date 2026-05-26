@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Announcement</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch; /* 確保 iOS 拖動極之絲滑 */
+        }
+        .wrapper {
+            padding: 16px;
+            box-sizing: border-box;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 8px;
+            margin-bottom: 16px;
+            color: #111111;
+            line-height: 1.4;
+        }
+        .content {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #4A4A4A;
+        }
+        .content p {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .responsive-banner {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .highlight {
+            color: #ff3b30;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <img src="https://picsum.photos/800/400" alt="Banner" class="responsive-banner" id="news-banner">
+
+        <div class="title" id="news-title">Loading...</div>
+        
+        <div class="content" id="news-content">
+            Loading...
+        </div>
+    </div>
+
+    <script>
+        // 1. 四語字典配置（香港繁體、台灣繁體、大陸簡體、英文）
+        const i18nConfig = {
+            'zh_hk': {
+                title: '🎉 流動應用程式全新版本升級通知',
+                content: `
+                    <p>親愛的用戶：</p>
+                    <p>為提供更穩定的連線品質，我們將於今晚進行核心數據庫優化升級。本次更新優化了<strong>動態公告推送系統</strong>，讓資訊傳遞更準確。</p>
+                    <p><span class="highlight">【系統維護時間】</span> 2026年06月01日 02:00 - 04:00 (GMT+8)</p>
+                    <p>升級期間若出現短暫無法刷新的情況，請稍後重新開啟 App 即可。感謝您的支持與體諒！</p>
+                `
+            },
+            'zh_tw': {
+                title: '🎉 應用程式全新版本升級通知',
+                content: `
+                    <p>親愛的用戶：</p>
+                    <p>為提供更穩定的連線品質，我們將於今晚進行核心數據庫優化升級。本次更新優化了<strong>動態公告推送系統</strong>，讓資訊傳遞更及時。</p>
+                    <p><span class="highlight">【維護時間】</span> 2026年06月01日 02:00 - 04:00 (GMT+8)</p>
+                    <p>升級期間若出現短暫無法刷新的情況，請稍後重新開啟 App 即可。感謝您的支持與配合！</p>
+                `
+            },
+            'zh_cn': {
+                title: '🎉 应用程序全新版本升级通知',
+                content: `
+                    <p>亲爱的用户：</p>
+                    <p>为提供更稳定的连线质量，我们将于今晚进行核心数据库优化升级。本次更新优化了<strong>动态公告推送系统</strong>，让资讯传递更及时。</p>
+                    <p><span class="highlight">【维护时间】</span> 2026年06月01日 02:00 - 04:00 (GMT+8)</p>
+                    <p>升级期间若出现短暂无法刷新 Mort 情況，请稍后重新开启 App 即可。感谢您的支持与配合！</p>
+                `
+            },
+            'en': {
+                title: '🎉 System Version Upgrade Notice',
+                content: `
+                    <p>Dear Valued User,</p>
+                    <p>To deliver a more stable connection, we will perform a core database upgrade tonight. This update optimizes our <strong>dynamic announcement system</strong> for faster delivery.</p>
+                    <p><span class="highlight">[Maintenance Time]</span> June 1, 2026, 02:00 - 04:00 (GMT+8)</p>
+                    <p>If you experience temporary connection disconnections during this window, please restart the App. Thank you for your understanding!</p>
+                `
+            }
+        };
+
+        // 2. 載入時偵測語系並渲染
+        window.addEventListener('DOMContentLoaded', () => {
+            const userLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+            
+            let selectedKey = 'en'; // 預設英文
+
+            // 3. 四語精準切換邏輯
+            if (userLang.startsWith('zh')) {
+                if (userLang.includes('hk') || userLang.includes('mo')) {
+                    selectedKey = 'zh_hk'; // 香港、澳門語系 $\rightarrow$ 香港繁體
+                } else if (userLang.includes('tw')) {
+                    selectedKey = 'zh_tw'; // 台灣語系 $\rightarrow$ 台灣繁體
+                } else {
+                    selectedKey = 'zh_cn'; // 其他 zh 開頭（如 zh-cn, zh-sg） $\rightarrow$ 簡體中文
+                }
+            }
+
+            // 4. 將對應語系的文字渲染到 HTML 畫面上
+            const data = i18nConfig[selectedKey];
+            document.getElementById('news-title').innerText = data.title;
+            document.getElementById('news-content').innerHTML = data.content;
+            
+            // 修正標籤符合標準
+            document.documentElement.lang = selectedKey.replace('_', '-');
+        });
+    </script>
+</body>
+</html>
