@@ -34,25 +34,25 @@
     {
       "id": "new_event_2026",
       "html_url": "index.html",
-      "action_type": "inner_route",
-      "action_value": "/deposit",
+      "action_type": "external_url",
+      "action_value": "https://google.com",
       "policy": {
-        "enable": true,
-        "release": false,
+        "enable": "true",
+        "release": "false",
         "specificTime": "",
-        "showOnStart": true,
-        "delayHours": 0.05,
-        "intervalHours": 12,
-        "maxCount": 3,
-        "maxCountPerDay": 1,
-        "force": false,
-        "showNeverAgain": true,
+        "showOnStart": "true",
+        "delayHours": "0.01",
+        "intervalHours": "12",
+        "maxCount": "3",
+        "maxCountPerDay": "1",
+        "force": "false",
+        "showNeverAgain": "true",
         "expired": "2026-12-31"
       },
       "layout": {
-        "width": 0,
-        "height": 0,
-        "padding": 16.0
+        "width": "0",
+        "height": "0",
+        "padding": "16.0"
       }
     }
   ]
