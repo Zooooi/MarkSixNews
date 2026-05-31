@@ -2,35 +2,46 @@
 <html lang="zh-HK">
 <head>
   <meta charset="UTF-8">
-  <title>Facebook Link</title>
+  <title>Links</title>
   <style>
     body {
-      background-color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       margin: 0;
+      height: 100vh;              /* 全頁高度 */
+      display: flex;
+      justify-content: center;    /* 垂直置中 */
+      align-items: center;        /* 水平置中 */
       font-family: Arial, sans-serif;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;                  /* 兩個鏈結之間留空 */
     }
     .link {
       display: flex;
       align-items: center;
       text-decoration: none;
-      color: #666666;
+      color: #333;
       font-size: 18px;
     }
     .link img {
-      width: 32px;
+      width: 32px;   /* 統一大小 */
       height: 32px;
-      margin-right: 10px;
+      margin-right: 8px;
     }
   </style>
 </head>
 <body>
-  <a class="link" href="https://facebook.com/TouSukStudio" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook Icon">
-    Tou Suk Studio
-  </a>
+  <div class="links">
+    <a class="link" href="https://app.mark6stats.com" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/609/609803.png" alt="Website">
+      Mark Six Stats
+    </a>
+    <a class="link" href="https://facebook.com/TouSukStudio" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      Tou Suk Studio
+    </a>
+  </div>
 </body>
 </html>
