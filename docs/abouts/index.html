@@ -64,30 +64,19 @@
       Mark Six Stats 
     </a>
 
-    <!-- Google Play 區塊 (只在 Android 顯示) -->
-    <div class="section qrcode-section">
+    <div class="section">
       <span class="cn">您可點擊或掃描 QR Code，即可前往 Google Play 下載應用程式，並分享、展示給有需要的朋友。</span>
       <span class="en">You can click or scan the QR code to download the app from Google Play, and share or show it to friends who may need it.</span>
     </div>
-    <a class="qrcode qrcode-section" href="https://play.google.com/store/apps/details?id=com.mark6stats.app" target="_blank">
+    <a class="qrcode" href="https://play.google.com/store/apps/details?id=com.mark6stats.app" target="_blank">
       <img src="https://n.mark6stats.com/abouts/images/google_play.png" alt="google play">
     </a>
     
-    <!-- Apple 區塊 -->
     <div class="section"> 
+      <img src="https://n.mark6stats.com/abouts/images/ios.png" alt="apple store">
       <span class="cn">Apple 版應用目前正處於審核階段，敬請耐心等待，我們將在通過後第一時間通知大家。</span>
       <span class="en">The Apple version of the app is currently under review. We kindly ask for your patience and will notify you immediately once the approval is granted.</span>
     </div>
   </div>
-
-  <script>
-    // 判斷 iOS，隱藏 QR Code 區塊
-    document.addEventListener("DOMContentLoaded", function() {
-      const ua = navigator.userAgent.toLowerCase();
-      if (ua.includes("iphone") || ua.includes("ipad") || ua.includes("macintosh")) {
-        document.querySelectorAll(".qrcode-section").forEach(el => el.style.display = "none");
-      }
-    });
-  </script>
 </body>
 </html>
