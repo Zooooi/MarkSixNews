@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Links</title>
+  <title>About</title>
   <style>
     body {
       margin: 0;
@@ -13,11 +13,11 @@
       align-items: center;        /* 水平置中 */
       font-family: Arial, sans-serif;
     }
-    .links {
+    .main {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 16px;                  /* 兩個鏈結之間留空 */
+      gap: 16px;                  /* 元素之間留空 */
     }
     .link {
       display: flex;
@@ -25,25 +25,58 @@
       text-decoration: none;
       color: #333;
       font-size: 28px;
-	  margin-bottom: 20px;
+      margin-bottom: 20px;
     }
     .link img {
       width: 32px;   /* 統一大小 */
       height: 32px;
       margin-right: 8px;
     }
+    .qrcode img {
+      width: 150px;   /* 統一大小 */
+      height: 150px;
+    }
+    .section {
+      text-align: center;
+      font-size: 16px;
+      color: #555;
+      margin-top: 20px;
+      padding: 0 50px;  /* 左右留空 */
+    }
+    .section .cn {
+      font-weight: bold;   /* 中文加粗 */
+      display: block;
+      margin-bottom: 8px;
+    }
+    .section .en {
+      font-style: italic;  /* 英文斜體 */
+      display: block;
+    }
+    .section img {
+      width: 32px;   /* 統一大小 */
+    }
   </style>
 </head>
 <body>
-  <div class="links">
+  <div class="main">
     <a class="link" href="https://app.mark6stats.com" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/609/609803.png" alt="Website">
       Mark Six Stats
     </a>
-    <!-- <a class="link" href="https://facebook.com/TouSukStudio" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
-      Tou Suk Studio
-    </a> -->
+
+    <div class="section">
+      <span class="cn">您可點擊或掃描 QR Code，即可前往 Google Play 下載應用程式，並分享、展示給有需要的朋友。</span>
+      <span class="en">You can click or scan the QR code to download the app from Google Play, and share or show it to friends who may need it.</span>
+    </div>
+    <a class="qrcode" href="https://play.google.com/store/apps/details?id=com.mark6stats.app" target="_blank">
+      <img src="images/google_play.png" alt="google play">
+    </a>
+    
+    <div class="section"> 
+      <img src="images/ios.png" alt="apple store">
+      <span class="cn">Apple 版應用目前正處於審核階段，敬請耐心等待，我們將在通過後第一時間通知大家。</span>
+      <span class="en">The Apple version of the app is currently under review. We kindly ask for your patience and will notify you immediately once the approval is granted.</span>
+    </div>
   </div>
 </body>
 </html>
