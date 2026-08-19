@@ -3,8 +3,8 @@
 		{
 			"id" : "new_version_1.1.0",
 			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0.html",
-			"action_type" : "external_url",
-			"action_value" : "https://play.google.com/store/apps/details?id=com.mark6stats.app",
+			"action_type" : "none",
+			"action_value" : "",
 			"policy" : {
 				"enable" : "false",
 				"release" : "true",
@@ -21,7 +21,7 @@
 			"layout" : {
 				"width" : "0",
 				"height" : "0",
-				"padding" : "16.0"
+				"padding" : "8.0"
 			}
 		}
 	]
