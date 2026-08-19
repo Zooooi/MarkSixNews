@@ -1,5 +1,28 @@
 {
 	"news_list" : [
-
+		{
+			"id" : "new_version_1.1.0",
+			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0.html",
+			"action_type" : "external_url",
+			"action_value" : "https://play.google.com/store/apps/details?id=com.mark6stats.app",
+			"policy" : {
+				"enable" : "false",
+				"release" : "true",
+				"specificTime" : "",
+				"showOnStart" : "true",
+				"delayHours" : "0.01",
+				"intervalHours" : "12",
+				"maxCount" : "1",
+				"maxCountPerDay" : "1",
+				"force" : "false",
+				"showNeverAgain" : "true",
+				"expired" : "2026-08-31"
+			},
+			"layout" : {
+				"width" : "0",
+				"height" : "0",
+				"padding" : "16.0"
+			}
+		}
 	]
 }
