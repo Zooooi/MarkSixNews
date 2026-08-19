@@ -37,6 +37,19 @@ body {
     display: block;
     margin: 0 auto 12px auto;          /* 置中並與下方標題保持距離 */
 }
+
+.notice-once {
+    color: #facc15;             /* 醒目的黃色 */
+    font-size: 0.8rem;          /* 適中的小字體 */
+    font-weight: 700;
+    margin-bottom: 8px;         /* 與下方的標題拉開距離 */
+    background-color: rgba(250, 204, 21, 0.1); /* 淡淡的黃色背景底框 */
+    border: 1px dashed rgba(250, 204, 21, 0.4); /* 黃色虛線框 */
+    border-radius: 6px;
+    padding: 4px 8px;
+    display: inline-block;      /* 讓背景框貼合文字寬度 */
+}
+
 .badge {
     display: inline-block;
     background: linear-gradient(90deg, #3b82f6, #8b5cf6);
@@ -51,7 +64,7 @@ body {
 }
 
 .title-zh {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 800;
     color: #ffffff;
     margin-bottom: 4px;
