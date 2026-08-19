@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    line-height: 1.5;
+    padding: 12px;
+    user-select: none; /* 避免在 WebView 內被誤選文字 */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 頂部標題區域 */
+.header {
+    text-align: center;
+    padding: 24px 16px;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border: 1px solid #334155;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.badge {
+    display: inline-block;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title-zh {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.title-en {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #38bdf8;
+    margin-bottom: 12px;
+}
+
+.version-tag {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    background-color: #1e293b;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: 1px solid #475569;
+}
+
+/* 分區標題 */
+.section-header {
+    display: flex;
+    align-items: baseline;
+    margin: 24px 0 12px 4px;
+    border-bottom: 2px solid #334155;
+    padding-bottom: 6px;
+}
+
+.section-header h2 {
+    font-size: 1.15rem;
+    color: #f1f5f9;
+}
+
+.section-header .en-sub {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-left: 8px;
+}
+
+/* 功能卡片 */
+.card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.card-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.1);
+    padding: 2px 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.text-zh {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f8fafc;
+    margin-bottom: 4px;
+}
+
+.text-en {
+    font-size: 0.875rem;
+    color: #94a3b8;
+    margin-bottom: 12px;
+}
+
+.img-container {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    /*border: 1px solid #475569;*/
+    /*background-color: #0f172a;*/
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 呼籲評價與分享區塊 */
+.cta-card {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(139, 92, 246, 0.15) 100%);
+    border: 1.5px solid #6366f1;
+    border-radius: 16px;
+    padding: 20px 16px;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.cta-heart {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.cta-title-zh {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.cta-title-en {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #a5b4fc;
+    margin-bottom: 12px;
+}
+
+.cta-desc-zh {
+    font-size: 0.9rem;
+    color: #e2e8f0;
+    margin-bottom: 8px;
+}
+
+.cta-desc-en {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-bottom: 16px;
+}
+
+/* 關鍵字展示框 */
+.search-keywords-box {
+    background-color: rgba(15, 23, 42, 0.8);
+    border: 1px dashed #38bdf8;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.search-title {
+    font-size: 0.85rem;
+    color: #38bdf8;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.keyword-tag {
+    display: inline-block;
+    background: #334155;
+    color: #f8fafc;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 3px;
+    border: 1px solid #475569;
+}
+
+.footer {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* 精簡版商店搜尋引導框 */
+.search-guide-box {
+    background-color: rgba(15, 23, 42, 0.85);
+    border: 1px solid #334155;
+    border-left: 4px solid #38bdf8;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-top: 14px;
+    text-align: left; /* 強制靠左對齊，避免居中雜亂 */
+}
+
+.guide-steps {
+    font-size: 0.85rem;
+    color: #e2e8f0;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.kw-container {
+    margin: 6px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.highlight-kw {
+    color: #facc15; /* 醒目黃色關鍵字 */
+    font-weight: 700;
+    font-size: 0.85rem;
+    background-color: rgba(250, 204, 21, 0.15);
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(250, 204, 21, 0.3);
+    display: inline-block;
+}
+
+.guide-en {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    border-top: 1px solid #334155;
+    padding-top: 6px;
+    line-height: 1.3;
+}
+
+
+/* Header 頁眉中英文小字提示 */
+.header-search-hint {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed #334155;
+}
+
+.hint-zh {
+    font-size: 0.825rem;
+    color: #e2e8f0;
+    margin-bottom: 2px;
+}
+
+.hint-en {
+    font-size: 0.75rem;
+    color: #94a3b8;
+}
+
+.header-kw {
+    color: #38bdf8;
+    font-weight: 700;
+}
