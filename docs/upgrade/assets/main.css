@@ -29,12 +29,13 @@ body {
     margin-bottom: 20px;
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
 }
+
+/* 🎯 關鍵修復：針對 site_logo.webp 控寬 */
 .header .image {
-    /* 使用 clamp(最小值, 響應式比例, 最大值) */
-    width: clamp(70px, 20vw, 120px); 
-    height: auto; /* 保持圖片原始比例，不變形 */
-    margin: 0 auto 12px auto;
+    width: clamp(80px, 25vw, 130px); /* 手機端自動維持約 80px，電腦端最大放大到 130px */
+    height: auto;                     /* 自動等比例縮放，絕不變形 */
     display: block;
+    margin: 0 auto 12px auto;          /* 置中並與下方標題保持距離 */
 }
 .badge {
     display: inline-block;
