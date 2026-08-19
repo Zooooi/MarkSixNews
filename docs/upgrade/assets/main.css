@@ -30,9 +30,11 @@ body {
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
 }
 .header .image {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 12px;
+    /* 使用 clamp(最小值, 響應式比例, 最大值) */
+    width: clamp(70px, 20vw, 120px); 
+    height: auto; /* 保持圖片原始比例，不變形 */
+    margin: 0 auto 12px auto;
+    display: block;
 }
 .badge {
     display: inline-block;
