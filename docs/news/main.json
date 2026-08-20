@@ -10,7 +10,7 @@
 				"release" : "true",
 				"specificTime" : "",
 				"showOnStart" : "true",
-				"delayHours" : "0.02",
+				"delayHours" : "0",
 				"intervalHours" : "12",
 				"maxCount" : "1",
 				"maxCountPerDay" : "1",
