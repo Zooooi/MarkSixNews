@@ -6,7 +6,7 @@
 			"action_type" : "none",
 			"action_value" : "",
 			"policy" : {
-				"enable" : "true",
+				"enable" : "false",
 				"release" : "true",
 				"specificTime" : "",
 				"showOnStart" : "true",
