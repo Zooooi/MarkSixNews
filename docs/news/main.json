@@ -16,7 +16,8 @@
 				"maxCountPerDay" : "1",
 				"force" : "false",
 				"showNeverAgain" : "false",
-				"expired" : "2026-08-31"
+				"expired" : "2026-08-31",
+				"platform" : ""
 			},
 			"layout" : {
 				"width" : "0",
@@ -26,3 +27,5 @@
 		}
 	]
 }
+
+
