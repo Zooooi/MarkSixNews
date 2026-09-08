@@ -274,7 +274,7 @@
     </div>
 
     <!-- Android / Google Play 下載區 (iOS 會被 JS 自動隱藏) -->
-    <div class="card android-only" id="android-section">
+    <div class="card android-only">
       <div class="card-title" style="justify-content: center;">Android App Download</div>
       
       <div class="qrcode-wrapper">
@@ -333,7 +333,6 @@
     <!-- Footer -->
     <div class="footer">
       <p>© 2026 Mark Six Stats. All rights reserved.</p>
-      <p style="margin-top: 4px; color: #484f58;">System Status: <span style="color: var(--accent-green);">● Operational</span></p>
     </div>
 
   </div>
@@ -341,15 +340,14 @@
   <!-- iOS 自動隱藏平台敏感內容 JS -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      // 檢測是否為 iOS 裝置 (iPhone, iPad, iPod)
-      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-      
+      // 1. 更嚴謹的 iOS / iPadOS 檢測邏輯
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || 
+                    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+      // 2. 如果頁面上有多個 .android-only 元素，全部移除
       if (isIOS) {
-        const androidSection = document.getElementById('android-section');
-        if (androidSection) {
-          // 若為 iOS 裝置，直接從 DOM 移除，避免 Apple 審查機器人或人工審查發現 Google Play / 外部下載資訊
-          androidSection.remove();
-        }
+        const androidSections = document.querySelectorAll('.android-only');
+        androidSections.forEach(section => section.remove());
       }
     });
   </script>
