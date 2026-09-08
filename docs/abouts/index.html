@@ -80,7 +80,6 @@
       border-radius: 12px;
       padding: 18px;
       position: relative;
-      margin: 10px 0 10px 0;
     }
 
     .card-title {
@@ -249,13 +248,21 @@
           </div>
           <span style="color: var(--accent-blue)">app.mark6stats.com</span>
         </a>
-
+      
         <div class="link-btn copy-btn" data-copy="@mark6stats">
           <div class="link-left">
             <span class="link-icon">📢</span>
             <span>News Channel</span>
           </div>
-          <span style="color: var(--accent-blue)">Telegram: @mark6stats</span>
+          <div style="display: flex; align-items: center; gap: 4px; color: var(--accent-blue)">
+            <span>Tg: @mark6stats</span>
+            <!-- 複製 SVG 圖示 -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            
+          </div>
         </div>
 
         <div class="link-btn copy-btn" data-copy="@Mark6statsGroup">
@@ -263,14 +270,21 @@
             <span class="link-icon">💬</span>
             <span>Community Group</span>
           </div>
-          <span style="color: var(--accent-blue)">Telegram: @mark6statsGroup</span>
+          <div style="display: flex; align-items: center; gap: 4px; color: var(--accent-blue)">
+            <span>Tg: @mark6statsGroup</span>
+            <!-- 複製 SVG 圖示 -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          </div>
         </div>
 
         <!-- Toast 提示框 -->
         <div id="toast" style="display:none; position:fixed; bottom:30px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.85); color:#fff; padding:10px 18px; border-radius:20px; font-size:12px; font-family:var(--font-code); z-index:9999; border:1px solid var(--border-color);">
           Copied to clipboard! Search in Telegram.
         </div>
-
+      </div>
     </div>
 
     <!-- Android / Google Play 下載區 (iOS 會被 JS 自動隱藏) -->
