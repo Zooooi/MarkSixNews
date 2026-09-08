@@ -249,7 +249,7 @@
           <span style="color: var(--text-sub)">app.mark6stats.com</span>
         </a>
 
-        <a class="link-btn" href="https://t.me/mark6stats" target="_blank">
+        <a class="link-btn tg-link" href="https://t.me/mark6stats" data-tg="tg://resolve?domain=mark6stats">
           <div class="link-left">
             <span class="link-icon">📢</span>
             <span>News Channel</span>
@@ -257,14 +257,18 @@
           <span style="color: var(--accent-blue)">t.me/mark6stats</span>
         </a>
 
-        <a class="link-btn" href="https://t.me/Mark6statsGroup" target="_blank">
+        <a class="link-btn tg-link" href="https://t.me/Mark6statsGroup" data-tg="tg://resolve?domain=Mark6statsGroup">
           <div class="link-left">
             <span class="link-icon">💬</span>
             <span>Community Group</span>
           </div>
           <span style="color: var(--accent-blue)">t.me/Mark6statsGroup</span>
         </a>
-      </div>
+
+        <!-- 複製成功的 Toast 提示元件 -->
+        <div id="toast" style="display:none; position:fixed; bottom:30px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.85); color:#fff; padding:10px 18px; border-radius:20px; font-size:12px; font-family:var(--font-code); z-index:9999; border:1px solid var(--border-color);">
+          已複製連結到剪貼簿！
+        </div>
     </div>
 
     <!-- Android / Google Play 下載區 (iOS 會被 JS 自動隱藏) -->
@@ -344,6 +348,60 @@
           // 若為 iOS 裝置，直接從 DOM 移除，避免 Apple 審查機器人或人工審查發現 Google Play / 外部下載資訊
           androidSection.remove();
         }
+      }
+    });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // 1. iOS 自動隱藏處理
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      if (isIOS) {
+        const androidSection = document.getElementById('android-section');
+        if (androidSection) androidSection.remove();
+      }
+
+      // 2. Telegram 連結喚起與複製降級邏輯
+      const tgLinks = document.querySelectorAll('.tg-link');
+      tgLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          const webUrl = this.getAttribute('href');
+          const tgScheme = this.getAttribute('data-tg');
+
+          // 嘗試喚起 Telegram App
+          window.location.href = tgScheme;
+
+          // 複製網址作為備用機制
+          copyToClipboard(webUrl);
+        });
+      });
+
+      function copyToClipboard(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(text).then(showToast);
+        } else {
+          // 相容舊版 WebView 的複製方式
+          const textArea = document.createElement("textarea");
+          textArea.value = text;
+          textArea.style.position = "fixed";
+          textArea.style.opacity = "0";
+          document.body.appendChild(textArea);
+          textArea.focus();
+          textArea.select();
+          try {
+            document.execCommand('copy');
+            showToast();
+          } catch (err) {
+            console.error('Copy failed', err);
+          }
+          document.body.removeChild(textArea);
+        }
+      }
+
+      function showToast() {
+        const toast = document.getElementById('toast');
+        toast.style.display = 'block';
+        setTimeout(() => { toast.style.display = 'none'; }, 2500);
       }
     });
   </script>
