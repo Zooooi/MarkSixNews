@@ -80,6 +80,7 @@
       border-radius: 12px;
       padding: 18px;
       position: relative;
+      margin: 10px 0 10px 0;
     }
 
     .card-title {
@@ -246,29 +247,30 @@
             <span class="link-icon">🌐</span>
             <span>Official Web</span>
           </div>
-          <span style="color: var(--text-sub)">app.mark6stats.com</span>
+          <span style="color: var(--accent-blue)">app.mark6stats.com</span>
         </a>
 
-        <a class="link-btn tg-link" href="https://t.me/mark6stats" data-tg="tg://resolve?domain=mark6stats">
+        <div class="link-btn copy-btn" data-copy="@mark6stats">
           <div class="link-left">
             <span class="link-icon">📢</span>
             <span>News Channel</span>
           </div>
-          <span style="color: var(--accent-blue)">t.me/mark6stats</span>
-        </a>
+          <span style="color: var(--accent-blue)">Telegram: @mark6stats</span>
+        </div>
 
-        <a class="link-btn tg-link" href="https://t.me/Mark6statsGroup" data-tg="tg://resolve?domain=Mark6statsGroup">
+        <div class="link-btn copy-btn" data-copy="@Mark6statsGroup">
           <div class="link-left">
             <span class="link-icon">💬</span>
             <span>Community Group</span>
           </div>
-          <span style="color: var(--accent-blue)">t.me/Mark6statsGroup</span>
-        </a>
-
-        <!-- 複製成功的 Toast 提示元件 -->
-        <div id="toast" style="display:none; position:fixed; bottom:30px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.85); color:#fff; padding:10px 18px; border-radius:20px; font-size:12px; font-family:var(--font-code); z-index:9999; border:1px solid var(--border-color);">
-          已複製連結到剪貼簿！
+          <span style="color: var(--accent-blue)">Telegram: @mark6statsGroup</span>
         </div>
+
+        <!-- Toast 提示框 -->
+        <div id="toast" style="display:none; position:fixed; bottom:30px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.85); color:#fff; padding:10px 18px; border-radius:20px; font-size:12px; font-family:var(--font-code); z-index:9999; border:1px solid var(--border-color);">
+          Copied to clipboard! Search in Telegram.
+        </div>
+
     </div>
 
     <!-- Android / Google Play 下載區 (iOS 會被 JS 自動隱藏) -->
@@ -353,50 +355,33 @@
   </script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      // 1. iOS 自動隱藏處理
-      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-      if (isIOS) {
-        const androidSection = document.getElementById('android-section');
-        if (androidSection) androidSection.remove();
-      }
-
-      // 2. Telegram 連結喚起與複製降級邏輯
-      const tgLinks = document.querySelectorAll('.tg-link');
-      tgLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-          e.preventDefault();
-          const webUrl = this.getAttribute('href');
-          const tgScheme = this.getAttribute('data-tg');
-
-          // 嘗試喚起 Telegram App
-          window.location.href = tgScheme;
-
-          // 複製網址作為備用機制
-          copyToClipboard(webUrl);
+      const copyBtns = document.querySelectorAll('.copy-btn');
+      
+      copyBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const textToCopy = this.getAttribute('data-copy');
+          
+          if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(textToCopy).then(showToast);
+          } else {
+            // 相容舊版 WebView 的複製方式
+            const textArea = document.createElement("textarea");
+            textArea.value = textToCopy;
+            textArea.style.position = "fixed";
+            textArea.style.opacity = "0";
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+              document.execCommand('copy');
+              showToast();
+            } catch (err) {
+              console.error('Copy failed', err);
+            }
+            document.body.removeChild(textArea);
+          }
         });
       });
-
-      function copyToClipboard(text) {
-        if (navigator.clipboard && window.isSecureContext) {
-          navigator.clipboard.writeText(text).then(showToast);
-        } else {
-          // 相容舊版 WebView 的複製方式
-          const textArea = document.createElement("textarea");
-          textArea.value = text;
-          textArea.style.position = "fixed";
-          textArea.style.opacity = "0";
-          document.body.appendChild(textArea);
-          textArea.focus();
-          textArea.select();
-          try {
-            document.execCommand('copy');
-            showToast();
-          } catch (err) {
-            console.error('Copy failed', err);
-          }
-          document.body.removeChild(textArea);
-        }
-      }
 
       function showToast() {
         const toast = document.getElementById('toast');
