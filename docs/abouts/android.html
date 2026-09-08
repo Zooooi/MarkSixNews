@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Mark Six Stats</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/main.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <a class="brand-title" href="https://app.mark6stats.com" target="_blank">
+        <img src="/images/site_logo.webp" alt="Mark Six Stats Logo">
+        Mark Six Stats
+      </a>
+      <div class="tagline"></div>
+    </div>
+
+    <!-- 社交與官方連結 -->
+    <div class="card">
+      <div class="card-title">Home, Channels & Community</div>
+      <div class="links-grid">
+        <a class="link-btn" href="https://app.mark6stats.com" target="_blank">
+          <div class="link-left">
+            <span class="link-icon">🌐</span>
+            <span>Official Web</span>
+          </div>
+          <span style="color: var(--accent-blue)">app.mark6stats.com</span>
+        </a>
+      
+        <div class="link-btn copy-btn" data-copy="mark6stats">
+          <div class="link-left">
+            <span class="link-icon">📢</span>
+            <span>News Channel</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 4px; color: var(--accent-blue)">
+            <span>Telegram: mark6stats</span>
+            <!-- 複製 SVG 圖示 -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="link-btn copy-btn" data-copy="mark6statsGroup">
+          <div class="link-left">
+            <span class="link-icon">💬</span>
+            <span>Community Group</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 4px; color: var(--accent-blue)">
+            <span>Telegram: mark6statsGroup</span>
+            <!-- 複製 SVG 圖示 -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Toast 提示框 -->
+        <div id="toast" style="display:none; position:fixed; bottom:30px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.85); color:#fff; padding:10px 18px; border-radius:20px; font-size:12px; font-family:var(--font-code); z-index:9999; border:1px solid var(--border-color);">
+          Copied to clipboard! Search in Telegram.
+        </div>
+      </div>
+    </div>
+
+    <!-- Android / Google Play 下載區 (iOS 會被 JS 自動隱藏) -->
+    <div class="card android-only">
+      <div class="card-title" style="justify-content: center;">Android App Download</div>
+      
+      <div class="qrcode-wrapper">
+        <img src="../images/android.png">
+      </div>
+
+      <div class="lang-block">
+        <span class="cn">掃描 QR Code 即可直達 Google Play 下載。歡迎分享給有需要的朋友！</span>
+        <span class="en">Scan the QR code on Google Play to download. Share it with your friends!</span>
+      </div>
+
+      
+    </div>
+
+    <!-- Apple 審核顯示區 (保持原始圖片與文字結構) -->
+    <div class="card android-only">
+      <div class="store-wrapper"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=original" alt="apple store" class="store-icon">
+
+        <div>
+          <span class="cn">Apple 版應用目前正處於審核階段，敬請耐心等待，我們將在通過後第一時間通知大家。</span>
+          <span class="en">The Apple version of the app is currently under review. We kindly ask for your patience and will notify you immediately once the approval is granted.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 未來發展方向 ( Roadmap ) -->
+    <div class="card">
+      <div class="card-title">Future Roadmap</div>
+
+      <!-- Feature 1 -->
+      <div class="feature-item">
+        <span class="feature-tag">MODULE_1: LUCKY_STREAK</span>
+        <div class="lang-block">
+          <span class="cn">加入迷你遊戲過關產生幸運號碼 —— 只要成功過關，就證明你當前運氣不差，生成的必定是你的專屬幸運號碼！</span>
+          <span class="en">Mini-games for lucky numbers — clearing a stage proves your luck is strong, generating your guaranteed lucky numbers!</span>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="feature-item">
+        <span class="feature-tag">MODULE_2: AI_COMMUNITY</span>
+        <div class="lang-block">
+          <span class="cn">建立包含 AI Agent 的專屬社群：用戶記錄的號碼可分享至社群，與 AI Agent 互相對比中獎成績並參與獲獎排名！</span>
+          <span class="en">AI Agent Community & Leaderboards: Join a community with AI Agents, share your recorded numbers, compare winning results with AI Agents, and join the winning rankings!</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>© 2026 Mark Six Stats. All rights reserved.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

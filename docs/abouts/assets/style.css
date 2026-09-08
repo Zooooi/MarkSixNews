@@ -1,0 +1,217 @@
+:root {
+  --bg-color: #0d1117;
+  --card-bg: #161b22;
+  --border-color: #30363d;
+  --text-main: #c9d1d9;
+  --text-sub: #8b949e;
+  --accent-green: #3fb950;
+  --accent-blue: #58a6ff;
+  --accent-purple: #bc8cff;
+  --font-code: 'Fira Code', 'Courier New', Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px; /* 移動端最佳寬度 */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Header 標題風格 */
+.header {
+  text-align: center;
+  padding: 16px 0;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.brand-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--accent-blue);
+  font-family: var(--font-code);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.brand-title img {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+
+.tagline {
+  font-size: 12px;
+  color: var(--text-sub);
+  font-family: var(--font-code);
+  margin-top: 6px;
+}
+
+/* 代碼卡片通用樣式 */
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 18px;
+  position: relative;
+}
+
+.card-title {
+  font-family: var(--font-code);
+  font-size: 14px;
+  color: var(--accent-purple);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-title::before {
+  content: ">";
+  color: var(--accent-green);
+  font-weight: bold;
+}
+
+/* 連結區域 */
+.links-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 14px;
+  font-family: var(--font-code);
+  transition: all 0.2s ease;
+}
+
+.link-btn:hover {
+  border-color: var(--accent-blue);
+  background: rgba(88, 166, 255, 0.1);
+}
+
+.link-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-icon {
+  color: var(--accent-green);
+}
+
+/* Android 限定下載區域 (iOS 上自動隱藏) */
+.android-only {
+  text-align: center;
+}
+
+.qrcode-wrapper {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 12px 0;
+}
+
+.qrcode-wrapper img {
+  width: 140px;
+  height: 140px;
+  display: block;
+}
+
+/* Apple 審核展示樣式修正 */
+.store-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  text-align: left;
+}
+
+.store-icon {
+  width: 50px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* 雙語段落風格 */
+.lang-block {
+  margin-top: 10px;
+}
+
+.cn {
+  font-size: 14px;
+  color: var(--text-main);
+  line-height: 1.6;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.en {
+  font-size: 12px;
+  color: var(--text-sub);
+  font-style: italic;
+  line-height: 1.4;
+  display: block;
+}
+
+/* 未來發展方向 Feature 列表 */
+.feature-item {
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px dotted var(--border-color);
+}
+
+.feature-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.feature-tag {
+  display: inline-block;
+  font-family: var(--font-code);
+  font-size: 11px;
+  color: var(--accent-green);
+  background: rgba(63, 185, 80, 0.15);
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+/* 頁腳 */
+.footer {
+  text-align: center;
+  font-family: var(--font-code);
+  font-size: 11px;
+  color: var(--text-sub);
+  margin-top: 10px;
+}
