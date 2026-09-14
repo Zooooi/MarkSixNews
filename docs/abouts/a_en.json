@@ -229,7 +229,7 @@
               "tagColor": "wc.activeColor",
               "content": "[IN DEVELOPMENT] Processing draw results from the past 10, 20, 50, and 100 periods with AI models for multi-dimensional analysis, combined with custom algorithm mechanics to calculate and generate exclusive lucky numbers in real time!",
               "contentStyle": "tt.bodySmall",
-              "contentColor": "tc.active"
+              "contentColor": "tc.secondary"
             }
           },
           {
