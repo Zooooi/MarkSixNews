@@ -1,0 +1,181 @@
+{
+  "type": "Column",
+  "attributes": {
+    "padding": "res.padding_3",
+    "crossAxisAlignment": "stretch"
+  },
+  "children": [
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "首頁、頻道與社群",
+        "titleStyle": "tt.titleMedium",
+        "titleColor": "tc.primary",
+        "titleAlignment": "center",
+        "color": "wc.cardColor",
+        "borderStroke": 4,
+        "border": "wc.borderColor3",
+        "padding": "res.padding_2",
+        "borderRadius": "res.radius_2"
+      },
+      "child": {
+        "type": "Column",
+        "attributes": {
+          "crossAxisAlignment": "stretch"
+        },
+        "children": [
+          {
+            "type": "ListTile",
+            "attributes": {
+              "leadingIcon": "🌐",
+              "title": "官方網站",
+              "titleStyle": "tt.bodyMedium",
+              "titleColor": "tc.primary",
+              "trailingText": "app.mark6stats.com",
+              "trailingStyle": "tt.bodySmall",
+              "padding": "res.padding_4",
+              "trailingColor": "tc.secondary",
+              "linkUrl": "https://app.mark6stats.com"
+            }
+          },
+          {
+            "type": "Divider",
+            "attributes": {
+              "color": "wc.divider"
+            }
+          },
+          {
+            "type": "ListTile",
+            "attributes": {
+              "leadingIcon": "📢",
+              "title": "官方頻道",
+              "titleStyle": "tt.bodyMedium",
+              "titleColor": "tc.primary",
+              "trailingText": "@mark6stats",
+              "trailingStyle": "tt.bodySmall",
+              "trailingColor": "tc.secondary",
+              "padding": "res.padding_4",
+              "linkUrl": "https://t.me/mark6stats"
+            }
+          },
+          {
+            "type": "Divider",
+            "attributes": {
+              "color": "wc.divider"
+            }
+          },
+          {
+            "type": "ListTile",
+            "attributes": {
+              "leadingIcon": "💬",
+              "title": "交流社群",
+              "titleStyle": "tt.bodyMedium",
+              "titleColor": "tc.primary",
+              "trailingText": "@mark6statsGroup",
+              "trailingStyle": "tt.bodySmall",
+              "trailingColor": "tc.secondary",
+              "padding": "res.padding_4",
+              "linkUrl": "https://t.me/mark6statsGroup"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "未來發展藍圖",
+        "titleStyle": "tt.titleMedium",
+        "titleColor": "tc.primary",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor3",
+        "titleAlignment": "center",
+        "borderStroke": 4,
+        "padding": "res.padding_3",
+        "borderRadius": "res.radius_2"
+      },
+      "child": {
+        "type": "Column",
+        "attributes": {
+          "crossAxisAlignment": "start"
+        },
+        "children": [
+          {
+            "type": "FeatureItem",
+            "attributes": {
+              "tag": "1：主題與動態 UI",
+              "tagStyle": "tt.labelSmall",
+              "tagColor": "wc.activeColor",
+              "content": "【正在開發】提供 18 款主題配色（含光暗模式），支援選擇時即時預覽與套用；重構自適應 UI 介面，徹底修復行動裝置在設定大字體下的排版錯亂問題。",
+              "contentStyle": "tt.bodySmall",
+              "contentColor": "tc.secondary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "FeatureItem",
+            "attributes": {
+              "tag": "2：AI 數據分析",
+              "tagStyle": "tt.labelSmall",
+              "tagColor": "wc.activeColor",
+              "content": "【正在開發】將近 10、20、50、100 期的歷史開獎數據交由 AI 模型進行多維度分析，結合特殊演算機制即時計算並產生專屬幸運號碼！",
+              "contentStyle": "tt.bodySmall",
+              "contentColor": "tc.secondary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "FeatureItem",
+            "attributes": {
+              "tag": "3：好運連勝",
+              "tagStyle": "tt.labelSmall",
+              "tagColor": "wc.activeColor",
+              "content": "加入迷你遊戲過關產生幸運號碼 —— 只要成功過關，就證明你當前運氣不差，生成的必定是你的專屬幸運號碼！",
+              "contentStyle": "tt.bodySmall",
+              "contentColor": "tc.secondary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "FeatureItem",
+            "attributes": {
+              "tag": "4：AI 社群",
+              "tagStyle": "tt.labelSmall",
+              "tagColor": "wc.activeColor",
+              "content": "建立包含 AI Agent 的專屬社群：用戶記錄的號碼可分享至社群，與 AI Agent 互相對比中獎成績並參與獲獎排名！",
+              "contentStyle": "tt.bodySmall",
+              "contentColor": "tc.secondary"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_4"
+      }
+    }
+  ]
+}
