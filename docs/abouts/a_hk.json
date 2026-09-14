@@ -109,7 +109,7 @@
           {
             "type": "Image",
             "attributes": {
-              "src": "https://n.mark6stats.com/images/android.png",
+              "src": "https://n.mark6stats.com/images/android.png?v=2",
               "width": 160,
               "height": 160,
               "borderRadius": "res.radius_1"
