@@ -172,8 +172,8 @@
         "titleColor": "tc.primary",
         "titleAlignment": "center",
         "color": "wc.cardColor",
-        "borderStroke": 4,
-        "border": "wc.borderColor3",
+        "borderWidth": 4,
+        "borderColor": "wc.borderColor3",
         "padding": "res.padding_2",
         "borderRadius": "res.radius_2"
       },
@@ -233,7 +233,7 @@
         "titleColor": "tc.primary",
         "titleAlignment": "center",
         "color": "wc.cardColor",
-        "border": "wc.borderColor3",
+        "borderColor": "wc.borderColor3",
         "padding": "res.padding_3",
         "borderRadius": "res.radius_2"
       },
