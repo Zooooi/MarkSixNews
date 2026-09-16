@@ -1,0 +1,431 @@
+{
+  "type": "Column",
+  "attributes": {
+    "padding": "res.padding_3"
+  },
+  "children": [
+    {
+      "type": "HeaderCard",
+      "attributes": {
+        "logoUrl": "https://n.mark6stats.com/images/site_logo.webp",
+        "title": "Mark 6 Stats",
+        "titleStyle": "tt.titleLarge",
+        "titleColor": "tc.primary",
+        "background": "wc.cardColor",
+        "padding": "res.padding_3",
+        "borderRadius": "res.radius_2"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_2"
+      }
+    },
+    {
+      "type": "Tag",
+      "attributes": {
+        "text": "This notice is shown only once!",
+        "style": "tt.labelSmall",
+        "color": "wc.buttonTip1",
+        "textColor": "tc.primary",
+        "borderRadius": "res.radius_1"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_2"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Major Update: Version 1.1.0",
+        "style": "tt.titleLarge",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_1"
+      }
+    },
+    {
+      "type": "Row",
+      "children": [
+        {
+          "type": "Tag",
+          "attributes": {
+            "text": "Version 1.0.0 ➔ 1.1.0",
+            "style": "tt.labelSmall",
+            "color": "wc.activeColor",
+            "textColor": "tc.primary",
+            "borderRadius": "res.radius_1"
+          }
+        },
+        {
+          "type": "SizedBox",
+          "attributes": {
+            "width": "res.space_2"
+          }
+        },
+        {
+          "type": "Text",
+          "attributes": {
+            "text": "2026-08-20",
+            "style": "tt.bodySmall",
+            "color": "tc.helpInfo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.cardColor",
+        "border": "wc.borderColor1",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Please search Mark 6 Stats in App Store / Google Play to update",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Page Enhancements",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Page 1: Added detailed text descriptions; simplified page, multi-period stats appear only after tapping \"Multi-period Stats\".",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "./1.1.0/1.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Page 2: Progressive number statistics added on top of cumulative counts, expanding records from 30 to 1,000.",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "./1.1.0/intro_1-2.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 3",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Page 3: Added full-screen table for progressive and interval number statistics, with adjustable record counts.",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "./1.1.0/intro_1-3.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 4",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Page 4: Added progressive and interval statistics with customizable link tracking, and flexible record counts.",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "./1.1.0/intro_1-4.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 5",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Page 5: Statistics can be automatically split into multiple images, making social platform sharing clearer.",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "./1.1.0/intro_2-3.webp",
+              "borderRadius": "res.radius_1"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "./1.1.0/intro_2-4.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_4"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "border": "wc.borderColor3",
+        "borderRadius": "res.radius_3",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "⭐⭐⭐⭐⭐",
+              "textAlign": "center",
+              "style": "tt.titleMedium"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Search \"Mark 6 Stats\" on App Store / Google Play to update, and please leave us a star review!",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_1"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "(Or please feel free to leave a star review next time — development for this app goes far beyond this...)",
+              "style": "tt.bodySmall",
+              "color": "tc.helpInfo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Mark 6 Stats • Version 1.1.0 Update Announcement",
+        "textAlign": "center",
+        "style": "tt.labelSmall",
+        "color": "tc.helpInfo"
+      }
+    }
+  ]
+}
