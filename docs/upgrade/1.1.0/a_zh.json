@@ -1,0 +1,449 @@
+{
+  "type": "Column",
+  "attributes": {
+    "padding": "res.padding_3",
+    "crossAxisAlignment": "center"
+  },
+  "children": [
+    {
+      "type": "Tag",
+      "attributes": {
+        "text": "此消息仅显示一次！",
+        "style": "tt.labelLarge",
+        "color": "wc.activeColor",
+        "textColor": "tc.primary",
+        "borderRadius": "res.radius_1",
+        "alignment": "center",
+        "padding": "res.padding_3",
+        "borderRadius": "res.radius_2"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_2"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "重大更新：版本 1.1.0",
+        "style": "tt.titleLarge",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_1"
+      }
+    },
+    {
+      "type": "Row",
+      "attributes": {
+        "height": "res.space_1",
+        "mainAxisAlignment": "center"
+      },
+      "children": [
+        {
+          "type": "Text",
+          "attributes": {
+            "text": "Version 1.0.0 ➔ 1.1.0",
+            "style": "tt.bodySmall",
+            "color": "tc.helpInfo"
+          }
+        },
+        {
+          "type": "SizedBox",
+          "attributes": {
+            "width": "res.space_4"
+          }
+        },
+        {
+          "type": "Text",
+          "attributes": {
+            "text": "2026-08-20",
+            "style": "tt.bodySmall",
+            "color": "tc.helpInfo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.cardColor",
+        "border": "wc.borderColor1",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RichText",
+            "attributes": {
+              "textAlign": "center",
+              "spans": [
+                {
+                  "attributes": {
+                    "text": "请前往 Google Play 搜索 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "六合彩统计",
+                    "style": "tt.titleMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 或 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "Mark 6 Stats",
+                    "style": "tt.titleMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 进行更新",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "页面功能升级",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "页面 1：新增大量文字描述；简约版面，需点击“多期统计”才会显示相关统计数据",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.1.0/1.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "页面 2：在原有累计次数基础上，新增显示累进号码出现次数；可显示记录从原先 30 条大幅升级至 1000 条",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_1-2.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 3",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "页面 3：新增累进号码与间隔次数的全屏统计表格，记录数量可自由调整",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_1-3.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 4",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "页面 4：新增累进与间隔出现次数统计，并可任意设置连线追踪，记录数量亦可自由调整",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_1-4.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 5",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.third",
+        "color": "wc.cardColor",
+        "border": "wc.borderColor2",
+        "borderRadius": "res.radius_2",
+        "padding": "res.padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "页面 5：统计数据可自动拆分成多张图片，分享至社交平台时能更清晰呈现",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_2-3.webp",
+              "borderRadius": "res.radius_1"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_2-4.webp",
+              "borderRadius": "res.radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_4"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "border": "wc.borderColor3",
+        "borderRadius": "res.radius_3",
+        "padding": "res.padding_4"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RatingBar"
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_2"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "请打开 Google Play，搜索：六合彩统计 或 Mark 6 Stats。点击进入页面完成更新，顺便给个五星好评吧！",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "res.space_1"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "（当然留到下次再给评分也没问题，因为这款 App 的开发永不止步……）",
+              "style": "tt.bodySmall",
+              "color": "tc.helpInfo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "res.space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Mark 6 Stats • Version 1.1.0 更新公告",
+        "textAlign": "center",
+        "style": "tt.labelSmall",
+        "color": "tc.helpInfo"
+      }
+    }
+  ]
+}
