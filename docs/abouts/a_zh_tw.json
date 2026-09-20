@@ -1,7 +1,7 @@
 {
   "type": "Column",
   "attributes": {
-    "padding": "res.padding_3",
+    "padding": "padding_3",
     "crossAxisAlignment": "stretch"
   },
   "children": [
@@ -15,8 +15,8 @@
         "color": "wc.cardColor",
         "borderWidth": 4,
         "borderColor": "wc.borderColor3",
-        "padding": "res.padding_2",
-        "borderRadius": "res.radius_2"
+        "padding": "padding_2",
+        "borderRadius": "radius_2"
       },
       "child": {
         "type": "Column",
@@ -33,7 +33,7 @@
               "titleColor": "tc.primary",
               "trailingText": "app.mark6stats.com",
               "trailingStyle": "tt.bodySmall",
-              "padding": "res.padding_4",
+              "padding": "padding_4",
               "trailingColor": "tc.secondary",
               "linkUrl": "https://app.mark6stats.com"
             }
@@ -54,7 +54,7 @@
               "trailingText": "@mark6stats",
               "trailingStyle": "tt.bodySmall",
               "trailingColor": "tc.secondary",
-              "padding": "res.padding_4",
+              "padding": "padding_4",
               "linkUrl": "https://t.me/mark6stats"
             }
           },
@@ -74,7 +74,7 @@
               "trailingText": "@mark6statsGroup",
               "trailingStyle": "tt.bodySmall",
               "trailingColor": "tc.secondary",
-              "padding": "res.padding_4",
+              "padding": "padding_4",
               "linkUrl": "https://t.me/mark6statsGroup"
             }
           }
@@ -84,7 +84,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_3"
+        "height": "space_3"
       }
     },
     {
@@ -97,8 +97,8 @@
         "titleAlignment": "center",
         "borderWidth": 4,
         "borderColor": "wc.borderColor3",
-        "padding": "res.padding_3",
-        "borderRadius": "res.radius_2"
+        "padding": "padding_3",
+        "borderRadius": "radius_2"
       },
       "child": {
         "type": "Column",
@@ -112,13 +112,13 @@
               "src": "https://n.mark6stats.com/images/android.png?v=2",
               "width": 160,
               "height": 160,
-              "borderRadius": "res.radius_1"
+              "borderRadius": "radius_1"
             }
           },
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
@@ -136,7 +136,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_3"
+        "height": "space_3"
       }
     },
     {
@@ -145,8 +145,8 @@
         "color": "wc.cardColor",
         "borderColor": "wc.borderColor3",
         "borderWidth": 4,
-        "padding": "res.padding_3",
-        "borderRadius": "res.radius_2"
+        "padding": "padding_3",
+        "borderRadius": "radius_2"
       },
       "child": {
         "type": "Row",
@@ -182,7 +182,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_3"
+        "height": "space_3"
       }
     },
     {
@@ -195,8 +195,8 @@
         "borderColor": "wc.borderColor3",
         "titleAlignment": "center",
         "borderWidth": 4,
-        "padding": "res.padding_3",
-        "borderRadius": "res.radius_2"
+        "padding": "padding_3",
+        "borderRadius": "radius_2"
       },
       "child": {
         "type": "Column",
@@ -218,7 +218,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
@@ -235,7 +235,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
@@ -252,7 +252,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
@@ -272,7 +272,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_4"
+        "height": "space_4"
       }
     }
   ]

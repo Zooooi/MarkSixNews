@@ -52,14 +52,14 @@ B 當用戶要求生成或修改 `upgrade/{版本號時}` 頁面時，**必須�
 
 | HTML / 語義元素 | 對應 JSON `type` | 必填 / 常用 attributes 規格 |
 | :--- | :--- | :--- |
-| **區塊容器** | `Column` | `"padding": "res.padding_X"`, `"crossAxisAlignment": "start"|"center"|"stretch"` |
+| **區塊容器** | `Column` | `"padding": "padding_X"`, `"crossAxisAlignment": "start"|"center"|"stretch"` |
 | **水平排版** | `Row` | `"crossAxisAlignment": "start"|"center"|"stretch"` |
-| **間距留白** | `SizedBox` | `"height": "res.space_X"`, `"width": "res.space_X"` |
-| **卡片外框** | `Card` | `"title": "...", "titleStyle": "tt.titleMedium", "titleColor": "tc.primary", "color": "wc.cardColor", "border": "wc.borderColor3", "borderStroke": 1.0, "padding": "res.padding_3", "borderRadius": "res.radius_2"` *(內容放置於 `child`)* |
+| **間距留白** | `SizedBox` | `"height": "space_X"`, `"width": "space_X"` |
+| **卡片外框** | `Card` | `"title": "...", "titleStyle": "tt.titleMedium", "titleColor": "tc.primary", "color": "wc.cardColor", "border": "wc.borderColor3", "borderStroke": 1.0, "padding": "padding_3", "borderRadius": "radius_2"` *(內容放置於 `child`)* |
 | **列表連結 / 動作項** | `ListTile` | `"leadingIcon": "🌐", "title": "...", "titleStyle": "tt.bodyMedium", "titleColor": "tc.primary", "trailingText": "...", "trailingStyle": "tt.bodySmall", "linkUrl": "https://...", "copyData": "..."` |
 | **分隔線** | `Divider` | `"color": "wc.divider"` |
 | **標題 / 段落** | `Text` | `"text": "...", "style": "tt.titleMedium"|"tt.bodyMedium", "color": "tc.primary"|"tc.secondary", "textAlign": "start"|"center"` |
-| **圖片** | `Image` | `"src": "https://...", "width": 160, "height": 160, "borderRadius": "res.radius_1"` |
+| **圖片** | `Image` | `"src": "https://...", "width": 160, "height": 160, "borderRadius": "radius_1"` |
 | **Roadmap / 特性** | `FeatureItem` | `"tag": "MODULE_1", "tagStyle": "tt.labelSmall", "tagColor": "wc.activeColor", "content": "...", "contentStyle": "tt.bodySmall", "contentColor": "tc.secondary"` |
 
 ---
@@ -68,7 +68,7 @@ B 當用戶要求生成或修改 `upgrade/{版本號時}` 頁面時，**必須�
 
 1. 根節點必須是 `Column`，且 `crossAxisAlignment` 設為 `"stretch"`。
 2. `Card` 內若有多個元素，必須將子元素封裝在 `child` -> `Column` -> `children` 階層中。
-3. 元素之間的垂直距離，必須顯式插入 `SizedBox`（例如 `"height": "res.space_2"`）。
+3. 元素之間的垂直距離，必須顯式插入 `SizedBox`（例如 `"height": "space_2"`）。
 4. 輸出結果請直接提供合法的 JSON，或根據四檔同步原則分別輸出對應的 4 個檔案內容。
 
 輸出 JSON例子如下：
@@ -77,8 +77,8 @@ B 當用戶要求生成或修改 `upgrade/{版本號時}` 頁面時，**必須�
   "attributes": {
     "color": "wc.cardColor",
     "border": "wc.borderColor1",
-    "borderRadius": "res.radius_2",
-    "padding": "res.padding_3"
+    "borderRadius": "radius_2",
+    "padding": "padding_3"
   },
   "child": {
     "type": "Column",
@@ -93,13 +93,13 @@ B 當用戶要求生成或修改 `upgrade/{版本號時}` 頁面時，**必須�
           "style": "tt.labelSmall",
           "color": "wc.buttonTip1",
           "textColor": "tc.primary",
-          "borderRadius": "res.radius_1"
+          "borderRadius": "radius_1"
         }
       },
       {
         "type": "SizedBox",
         "attributes": {
-          "height": "res.space_2"
+          "height": "space_2"
         }
       },
       {
@@ -113,7 +113,7 @@ B 當用戶要求生成或修改 `upgrade/{版本號時}` 頁面時，**必須�
       {
         "type": "SizedBox",
         "attributes": {
-          "height": "res.space_1"
+          "height": "space_1"
         }
       },
       {
@@ -127,14 +127,14 @@ B 當用戶要求生成或修改 `upgrade/{版本號時}` 頁面時，**必須�
       {
         "type": "SizedBox",
         "attributes": {
-          "height": "res.space_2"
+          "height": "space_2"
         }
       },
       {
         "type": "Image",
         "attributes": {
           "src": "[https://example.com/banner.png](https://example.com/banner.png)",
-          "borderRadius": "res.radius_1"
+          "borderRadius": "radius_1"
         }
       }
     ]

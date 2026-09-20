@@ -1,7 +1,7 @@
 {
   "type": "Column",
   "attributes": {
-    "padding": "res.padding_3",
+    "padding": "padding_3",
     "crossAxisAlignment": "center"
   },
   "children": [
@@ -12,16 +12,16 @@
         "style": "tt.labelLarge",
         "color": "wc.activeColor",
         "textColor": "tc.primary",
-        "borderRadius": "res.radius_1",
+        "borderRadius": "radius_1",
         "alignment": "center",
-        "padding": "res.padding_3",
-        "borderRadius": "res.radius_2"
+        "padding": "padding_3",
+        "borderRadius": "radius_2"
       }
     },
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_2"
+        "height": "space_2"
       }
     },
     {
@@ -35,13 +35,13 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_1"
+        "height": "space_1"
       }
     },
     {
       "type": "Row",
       "attributes": {
-        "height": "res.space_1",
+        "height": "space_1",
         "mainAxisAlignment": "center"
       },
       "children": [
@@ -56,7 +56,7 @@
         {
           "type": "SizedBox",
           "attributes": {
-            "width": "res.space_4"
+            "width": "space_4"
           }
         },
         {
@@ -72,7 +72,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_3"
+        "height": "space_3"
       }
     },
     {
@@ -80,8 +80,8 @@
       "attributes": {
         "color": "wc.cardColor",
         "border": "wc.borderColor1",
-        "borderRadius": "res.radius_2",
-        "padding": "res.padding_3"
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
       },
       "child": {
         "type": "Column",
@@ -135,7 +135,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_4"
+        "height": "space_4"
       }
     },
     {
@@ -149,7 +149,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_2"
+        "height": "space_2"
       }
     },
     {
@@ -160,8 +160,8 @@
         "titleColor": "tc.third",
         "color": "wc.cardColor",
         "border": "wc.borderColor2",
-        "borderRadius": "res.radius_2",
-        "padding": "res.padding_3"
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
       },
       "child": {
         "type": "Column",
@@ -177,14 +177,14 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
             "type": "Image",
             "attributes": {
               "src": "https://n.mark6stats.com/upgrade/1.1.0/1.webp",
-              "borderRadius": "res.radius_1"
+              "borderRadius": "radius_1"
             }
           }
         ]
@@ -193,7 +193,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_3"
+        "height": "space_3"
       }
     },
     {
@@ -204,8 +204,8 @@
         "titleColor": "tc.third",
         "color": "wc.cardColor",
         "border": "wc.borderColor2",
-        "borderRadius": "res.radius_2",
-        "padding": "res.padding_3"
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
       },
       "child": {
         "type": "Column",
@@ -221,14 +221,14 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
             "type": "Image",
             "attributes": {
               "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_1-2.webp",
-              "borderRadius": "res.radius_1"
+              "borderRadius": "radius_1"
             }
           }
         ]
@@ -237,7 +237,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_3"
+        "height": "space_3"
       }
     },
     {
@@ -248,8 +248,8 @@
         "titleColor": "tc.third",
         "color": "wc.cardColor",
         "border": "wc.borderColor2",
-        "borderRadius": "res.radius_2",
-        "padding": "res.padding_3"
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
       },
       "child": {
         "type": "Column",
@@ -265,14 +265,14 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
             "type": "Image",
             "attributes": {
               "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_1-3.webp",
-              "borderRadius": "res.radius_1"
+              "borderRadius": "radius_1"
             }
           }
         ]
@@ -281,7 +281,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_3"
+        "height": "space_3"
       }
     },
     {
@@ -292,8 +292,8 @@
         "titleColor": "tc.third",
         "color": "wc.cardColor",
         "border": "wc.borderColor2",
-        "borderRadius": "res.radius_2",
-        "padding": "res.padding_3"
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
       },
       "child": {
         "type": "Column",
@@ -309,14 +309,14 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
             "type": "Image",
             "attributes": {
               "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_1-4.webp",
-              "borderRadius": "res.radius_1"
+              "borderRadius": "radius_1"
             }
           }
         ]
@@ -325,7 +325,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_3"
+        "height": "space_3"
       }
     },
     {
@@ -336,8 +336,8 @@
         "titleColor": "tc.third",
         "color": "wc.cardColor",
         "border": "wc.borderColor2",
-        "borderRadius": "res.radius_2",
-        "padding": "res.padding_3"
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
       },
       "child": {
         "type": "Column",
@@ -353,27 +353,27 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
             "type": "Image",
             "attributes": {
               "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_2-3.webp",
-              "borderRadius": "res.radius_1"
+              "borderRadius": "radius_1"
             }
           },
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
             "type": "Image",
             "attributes": {
               "src": "https://n.mark6stats.com/upgrade/1.1.0/intro_2-4.webp",
-              "borderRadius": "res.radius_1"
+              "borderRadius": "radius_1"
             }
           }
         ]
@@ -382,7 +382,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_4"
+        "height": "space_4"
       }
     },
     {
@@ -390,8 +390,8 @@
       "attributes": {
         "color": "wc.secondary",
         "border": "wc.borderColor3",
-        "borderRadius": "res.radius_3",
-        "padding": "res.padding_4"
+        "borderRadius": "radius_3",
+        "padding": "padding_4"
       },
       "child": {
         "type": "Column",
@@ -402,7 +402,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_2"
+              "height": "space_2"
             }
           },
           {
@@ -416,7 +416,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "res.space_1"
+              "height": "space_1"
             }
           },
           {
@@ -433,7 +433,7 @@
     {
       "type": "SizedBox",
       "attributes": {
-        "height": "res.space_4"
+        "height": "space_4"
       }
     },
     {
