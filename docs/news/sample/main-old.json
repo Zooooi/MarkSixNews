@@ -2,7 +2,7 @@
 	"news_list" : [
 		{
 			"id" : "new_version_1.1.0",
-			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0.html",
+			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0",
 			"action_type" : "none",
 			"action_value" : "",
 			"policy" : {
