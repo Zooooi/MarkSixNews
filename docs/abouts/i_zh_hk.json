@@ -25,20 +25,6 @@
         },
         "children": [
           {
-            "type": "ListTile",
-            "attributes": {
-              "leadingIcon": "🌐",
-              "title": "官方網站",
-              "titleStyle": "tt.bodyMedium",
-              "titleColor": "tc.primary",
-              "trailingText": "app.mark6stats.com",
-              "trailingStyle": "tt.bodySmall",
-              "padding": "padding_4",
-              "trailingColor": "tc.secondary",
-              "linkUrl": "https://app.mark6stats.com"
-            }
-          },
-          {
             "type": "Divider",
             "attributes": {
               "color": "wc.divider"
