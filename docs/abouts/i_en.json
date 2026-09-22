@@ -12,7 +12,6 @@
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
         "titleAlignment": "center",
-        "color": "wc.cardColor",
         "borderWidth": 4,
         "borderColor": "wc.borderColor3",
         "padding": "padding_2",
@@ -93,7 +92,7 @@
         "title": "Future Roadmap",
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
-        "color": "wc.cardColor",
+        
         "borderColor": "wc.borderColor3",
         "titleAlignment": "center",
         "borderWidth": 4,

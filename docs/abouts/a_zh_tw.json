@@ -12,7 +12,7 @@
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
         "titleAlignment": "center",
-        "color": "wc.cardColor",
+        
         "borderWidth": 4,
         "borderColor": "wc.borderColor3",
         "padding": "padding_2",
@@ -93,7 +93,7 @@
         "title": "Android 版應用下載",
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
-        "color": "wc.cardColor",
+        
         "titleAlignment": "center",
         "borderWidth": 4,
         "borderColor": "wc.borderColor3",
@@ -142,7 +142,7 @@
     {
       "type": "Card",
       "attributes": {
-        "color": "wc.cardColor",
+        
         "borderColor": "wc.borderColor3",
         "borderWidth": 4,
         "padding": "padding_3",
@@ -191,7 +191,7 @@
         "title": "未來發展藍圖",
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
-        "color": "wc.cardColor",
+        
         "borderColor": "wc.borderColor3",
         "titleAlignment": "center",
         "borderWidth": 4,

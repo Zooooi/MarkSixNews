@@ -77,7 +77,6 @@
     {
       "type": "Card",
       "attributes": {
-        "color": "wc.cardColor",
         "border": "wc.borderColor1",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -143,7 +142,6 @@
         "title": "PAGE 1",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.third",
-        "color": "wc.cardColor",
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -187,7 +185,7 @@
         "title": "PAGE 2",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.third",
-        "color": "wc.cardColor",
+        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -231,7 +229,6 @@
         "title": "PAGE 3",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.third",
-        "color": "wc.cardColor",
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -275,7 +272,6 @@
         "title": "PAGE 4",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.third",
-        "color": "wc.cardColor",
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -319,7 +315,6 @@
         "title": "PAGE 5",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.third",
-        "color": "wc.cardColor",
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
