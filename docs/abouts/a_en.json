@@ -214,7 +214,7 @@
           {
             "type": "FeatureItem",
             "attributes": {
-              "tag": "3: LUCKY STREAK",
+              "tag": "3: LUCKY GAMES",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
               "content": "Introducing mini-games to generate lucky numbers upon completion — clearing a level proves your current good luck, ensuring the generated numbers are truly your exclusive lucky numbers!",
