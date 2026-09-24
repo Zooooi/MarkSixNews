@@ -221,23 +221,6 @@
               "contentStyle": "tt.bodySmall",
               "contentColor": "tc.secondary"
             }
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_3"
-            }
-          },
-          {
-            "type": "FeatureItem",
-            "attributes": {
-              "tag": "4: AI COMMUNITY",
-              "tagStyle": "tt.labelSmall",
-              "tagColor": "wc.activeColor",
-              "content": "Building an exclusive community featuring AI Agents: User-saved entry numbers can be shared to the community, allowing you to compare winning results directly with AI Agents and participate in rankings!",
-              "contentStyle": "tt.bodySmall",
-              "contentColor": "tc.secondary"
-            }
           }
         ]
       }

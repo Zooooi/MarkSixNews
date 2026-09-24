@@ -222,23 +222,6 @@
               "contentStyle": "tt.bodySmall",
               "contentColor": "tc.secondary"
             }
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_3"
-            }
-          },
-          {
-            "type": "FeatureItem",
-            "attributes": {
-              "tag": "4：AI 社群",
-              "tagStyle": "tt.labelSmall",
-              "tagColor": "wc.activeColor",
-              "content": "建立包含 AI Agent 的專屬社群：用戶記錄的號碼可分享至社群，與 AI Agent 互相對比中獎成績並參與獲獎排名！",
-              "contentStyle": "tt.bodySmall",
-              "contentColor": "tc.secondary"
-            }
           }
         ]
       }
