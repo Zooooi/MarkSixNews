@@ -27,7 +27,7 @@
             "type": "ListTile",
             "attributes": {
               "leadingIcon": "🌐",
-              "title": "官方網站",
+              "title": "網站",
               "titleStyle": "tt.bodyMedium",
               "titleColor": "tc.primary",
               "trailingText": "app.mark6stats.com",
@@ -47,7 +47,7 @@
             "type": "ListTile",
             "attributes": {
               "leadingIcon": "📢",
-              "title": "官方頻道",
+              "title": "頻道",
               "titleStyle": "tt.bodyMedium",
               "titleColor": "tc.primary",
               "trailingText": "@mark6stats",
@@ -67,7 +67,7 @@
             "type": "ListTile",
             "attributes": {
               "leadingIcon": "💬",
-              "title": "交流社群",
+              "title": "社群",
               "titleStyle": "tt.bodyMedium",
               "titleColor": "tc.primary",
               "trailingText": "@mark6statsGroup",

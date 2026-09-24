@@ -28,7 +28,7 @@
             "type": "ListTile",
             "attributes": {
               "leadingIcon": "🌐",
-              "title": "官方网站",
+              "title": "网站",
               "titleStyle": "tt.bodyMedium",
               "titleColor": "tc.primary",
               "trailingText": "app.mark6stats.com",
@@ -48,7 +48,7 @@
             "type": "ListTile",
             "attributes": {
               "leadingIcon": "📢",
-              "title": "官方频道",
+              "title": "频道",
               "titleStyle": "tt.bodyMedium",
               "titleColor": "tc.primary",
               "trailingText": "@mark6stats",
@@ -68,7 +68,7 @@
             "type": "ListTile",
             "attributes": {
               "leadingIcon": "💬",
-              "title": "交流社区",
+              "title": "社区",
               "titleStyle": "tt.bodyMedium",
               "titleColor": "tc.primary",
               "trailingText": "@mark6statsGroup",
@@ -203,7 +203,7 @@
               "tag": "2：AI 数据分析",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
-              "content": "【正在开发】将近 10、20、50、100 期的历史开奖数据交由 AI 模型进行多维度分析，结合特殊演算机制实时计算并产生专属幸运号码！",
+              "content": "将近 10、20、50、100 期的历史开奖数据交由 AI 模型进行多维度分析，结合特殊演算机制实时计算并产生专属幸运号码！",
               "contentStyle": "tt.bodySmall",
               "contentColor": "tc.secondary"
             }

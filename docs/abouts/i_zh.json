@@ -8,7 +8,7 @@
     {
       "type": "Card",
       "attributes": {
-        "title": "首页、频道与社区",
+        "title": "频道与社区",
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
         "titleAlignment": "center",
@@ -34,7 +34,7 @@
             "type": "ListTile",
             "attributes": {
               "leadingIcon": "📢",
-              "title": "官方频道",
+              "title": "频道",
               "titleStyle": "tt.bodyMedium",
               "titleColor": "tc.primary",
               "trailingText": "@mark6stats",
@@ -54,7 +54,7 @@
             "type": "ListTile",
             "attributes": {
               "leadingIcon": "💬",
-              "title": "交流社区",
+              "title": "社区",
               "titleStyle": "tt.bodyMedium",
               "titleColor": "tc.primary",
               "trailingText": "@mark6statsGroup",
