@@ -12,10 +12,7 @@
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
         "titleAlignment": "center",
-        
         "borderWidth": 4,
-        "borderColor": "wc.borderColor3",
-        "padding": "padding_2",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -144,7 +141,7 @@
       "attributes": {
         "borderColor": "wc.borderColor3",
         "borderWidth": 4,
-        "padding": "padding_3",
+        "padding": "padding_5",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -171,7 +168,7 @@
         "borderColor": "wc.borderColor3",
         "titleAlignment": "center",
         "borderWidth": 4,
-        "padding": "padding_3",
+        "padding": "padding_5",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -194,7 +191,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
@@ -211,7 +208,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
@@ -228,7 +225,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {

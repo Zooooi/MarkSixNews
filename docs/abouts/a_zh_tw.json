@@ -12,10 +12,7 @@
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
         "titleAlignment": "center",
-        
         "borderWidth": 4,
-        "borderColor": "wc.borderColor3",
-        "padding": "padding_2",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -144,7 +141,7 @@
       "attributes": {
         "borderColor": "wc.borderColor3",
         "borderWidth": 4,
-        "padding": "padding_3",
+        "padding": "padding_5",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -172,7 +169,7 @@
         "borderColor": "wc.borderColor3",
         "titleAlignment": "center",
         "borderWidth": 4,
-        "padding": "padding_3",
+        "padding": "padding_5",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -195,7 +192,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
@@ -204,7 +201,7 @@
               "tag": "2：AI 數據分析",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
-              "content": "【正在開發】將近 10、20、50、100 期的歷史開獎數據交由 AI 模型進行多維度分析，結合特殊演算機制即時計算並產生專屬幸運號碼！",
+              "content": "將近 10、20、50、100 期的歷史開獎數據交由 AI 模型進行多維度分析，結合特殊演算機制即時計算並產生專屬幸運號碼！",
               "contentStyle": "tt.bodySmall",
               "contentColor": "tc.secondary"
             }
@@ -212,7 +209,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
@@ -229,7 +226,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {

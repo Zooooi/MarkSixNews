@@ -13,8 +13,6 @@
         "titleColor": "tc.primary",
         "titleAlignment": "center",
         "borderWidth": 4,
-        "borderColor": "wc.borderColor3",
-        "padding": "padding_2",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -23,6 +21,19 @@
           "crossAxisAlignment": "stretch"
         },
         "children": [
+          {
+            "type": "ListTile",
+            "attributes": {
+              "leadingIcon": "🌐",
+              "title": "Official Web",
+              "titleStyle": "tt.bodyMedium",
+              "titleColor": "tc.primary",
+              "trailingText": "app.mark6stats.com",
+              "trailingStyle": "tt.bodySmall",
+              "padding": "padding_4",
+              "trailingColor": "tc.secondary"
+            }
+          },
           {
             "type": "Divider",
             "attributes": {
@@ -39,8 +50,7 @@
               "trailingText": "@mark6stats",
               "trailingStyle": "tt.bodySmall",
               "trailingColor": "tc.secondary",
-              "padding": "padding_4",
-              "linkUrl": "https://t.me/mark6stats"
+              "padding": "padding_4"
             }
           },
           {
@@ -59,8 +69,7 @@
               "trailingText": "@mark6statsGroup",
               "trailingStyle": "tt.bodySmall",
               "trailingColor": "tc.secondary",
-              "padding": "padding_4",
-              "linkUrl": "https://t.me/mark6statsGroup"
+              "padding": "padding_4"
             }
           }
         ]
@@ -78,11 +87,10 @@
         "title": "Future Roadmap",
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
-        
         "borderColor": "wc.borderColor3",
         "titleAlignment": "center",
         "borderWidth": 4,
-        "padding": "padding_3",
+        "padding": "padding_5",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -105,7 +113,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
@@ -114,15 +122,15 @@
               "tag": "2: AI_DATA_PREDICTION",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
-              "content": "[IN DEVELOPMENT] Processing draw results from the past 10, 20, 50, and 100 periods with AI models for multi-dimensional analysis, combined with custom algorithm mechanics to calculate and generate exclusive lucky numbers in real time!",
+              "content": "Processing draw results from the past 10, 20, 50, and 100 periods with AI models for multi-dimensional analysis, combined with custom algorithm mechanics to calculate and generate exclusive lucky numbers in real time!",
               "contentStyle": "tt.bodySmall",
-              "contentColor": "tc.active"
+              "contentColor": "tc.secondary"
             }
           },
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
@@ -139,7 +147,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {

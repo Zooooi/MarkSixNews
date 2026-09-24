@@ -8,14 +8,11 @@
     {
       "type": "Card",
       "attributes": {
-        "title": "频道与社区",
+        "title": "首页、频道与社区",
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
         "titleAlignment": "center",
-        
         "borderWidth": 4,
-        "borderColor": "wc.borderColor3",
-        "padding": "padding_2",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -24,6 +21,19 @@
           "crossAxisAlignment": "stretch"
         },
         "children": [
+          {
+            "type": "ListTile",
+            "attributes": {
+              "leadingIcon": "🌐",
+              "title": "网站",
+              "titleStyle": "tt.bodyMedium",
+              "titleColor": "tc.primary",
+              "trailingText": "app.mark6stats.com",
+              "trailingStyle": "tt.bodySmall",
+              "padding": "padding_4",
+              "trailingColor": "tc.secondary"
+            }
+          },
           {
             "type": "Divider",
             "attributes": {
@@ -40,8 +50,7 @@
               "trailingText": "@mark6stats",
               "trailingStyle": "tt.bodySmall",
               "trailingColor": "tc.secondary",
-              "padding": "padding_4",
-              "linkUrl": "https://t.me/mark6stats"
+              "padding": "padding_4"
             }
           },
           {
@@ -60,8 +69,7 @@
               "trailingText": "@mark6statsGroup",
               "trailingStyle": "tt.bodySmall",
               "trailingColor": "tc.secondary",
-              "padding": "padding_4",
-              "linkUrl": "https://t.me/mark6statsGroup"
+              "padding": "padding_4"
             }
           }
         ]
@@ -79,11 +87,10 @@
         "title": "未来发展蓝图",
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
-        
         "borderColor": "wc.borderColor3",
         "titleAlignment": "center",
         "borderWidth": 4,
-        "padding": "padding_3",
+        "padding": "padding_5",
         "borderRadius": "radius_2"
       },
       "child": {
@@ -106,7 +113,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
@@ -115,7 +122,7 @@
               "tag": "2：AI 数据分析",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
-              "content": "【正在开发】将近 10、20、50、100 期的历史开奖数据交由 AI 模型进行多维度分析，结合特殊演算机制实时计算并产生专属幸运号码！",
+              "content": "将近 10、20、50、100 期的历史开奖数据交由 AI 模型进行多维度分析，结合特殊演算机制实时计算并产生专属幸运号码！",
               "contentStyle": "tt.bodySmall",
               "contentColor": "tc.secondary"
             }
@@ -123,7 +130,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
@@ -140,7 +147,7 @@
           {
             "type": "SizedBox",
             "attributes": {
-              "height": "space_2"
+              "height": "space_3"
             }
           },
           {
