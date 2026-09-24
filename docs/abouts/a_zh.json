@@ -142,41 +142,18 @@
     {
       "type": "Card",
       "attributes": {
-        
         "borderColor": "wc.borderColor3",
         "borderWidth": 4,
         "padding": "padding_3",
         "borderRadius": "radius_2"
       },
       "child": {
-        "type": "Row",
+        "type": "Text",
         "attributes": {
-          "crossAxisAlignment": "center"
-        },
-        "children": [
-          {
-            "type": "Expanded",
-            "attributes": {
-              "flex": 1
-            },
-            "child": {
-              "type": "Column",
-              "attributes": {
-                "crossAxisAlignment": "start"
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "attributes": {
-                    "text": "Apple 版应用目前正处于审核阶段，敬请耐心等待，我们将在通过后第一时间通知大家。",
-                    "style": "tt.bodySmall",
-                    "color": "tc.secondary"
-                  }
-                }
-              ]
-            }
-          }
-        ]
+          "text": "Apple 版应用目前正处于审核阶段，敬请耐心等待，我们将在通过后第一时间通知大家。",
+          "style": "tt.bodySmall",
+          "color": "tc.secondary"
+        }
       }
     },
     {
@@ -191,7 +168,6 @@
         "title": "未来发展蓝图",
         "titleStyle": "tt.titleMedium",
         "titleColor": "tc.primary",
-        
         "borderColor": "wc.borderColor3",
         "titleAlignment": "center",
         "borderWidth": 4,
