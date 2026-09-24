@@ -180,7 +180,7 @@
           {
             "type": "FeatureItem",
             "attributes": {
-              "tag": "1: THEME_&_DYNAMIC_UI",
+              "tag": "1: THEME & DYNAMIC UI",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
               "content": "[IN DEVELOPMENT] Providing 18 theme color schemes (including Light and Dark modes), supporting real-time preview and instant application. Refactoring adaptive UI layouts to completely fix layout issues on mobile devices under large text settings.",
@@ -197,7 +197,7 @@
           {
             "type": "FeatureItem",
             "attributes": {
-              "tag": "2: AI_DATA_PREDICTION",
+              "tag": "2: AI DATA PREDICTION",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
               "content": "Processing draw results from the past 10, 20, 50, and 100 periods with AI models for multi-dimensional analysis, combined with custom algorithm mechanics to calculate and generate exclusive lucky numbers in real time!",
@@ -214,7 +214,7 @@
           {
             "type": "FeatureItem",
             "attributes": {
-              "tag": "3: LUCKY_STREAK",
+              "tag": "3: LUCKY STREAK",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
               "content": "Introducing mini-games to generate lucky numbers upon completion — clearing a level proves your current good luck, ensuring the generated numbers are truly your exclusive lucky numbers!",
@@ -231,7 +231,7 @@
           {
             "type": "FeatureItem",
             "attributes": {
-              "tag": "4: AI_COMMUNITY",
+              "tag": "4: AI COMMUNITY",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
               "content": "Building an exclusive community featuring AI Agents: User-saved entry numbers can be shared to the community, allowing you to compare winning results directly with AI Agents and participate in rankings!",
