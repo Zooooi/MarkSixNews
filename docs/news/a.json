@@ -13,7 +13,7 @@
 			"action_value" : "",
 			"policy" : {
 				"enable" : "false",
-				"release" : "true",
+				"release" : "false",
 				"specificTime" : "",
 				"showOnStart" : "true",
 				"delayHours" : "0",
