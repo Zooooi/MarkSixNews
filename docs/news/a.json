@@ -3,17 +3,17 @@
 		{
 			"id" : "new_version_1.1.0",
 			"title" : {
-				"en" : "Version 1.1.0",
-				"zh" : "版本 1.1.0",
-				"zh-TW" : "版本 1.1.0",
-				"zh-HK" : "版本 1.1.0"
+				"en" : "Version 1.1.0 Update Notes",
+				"zh" : "版本 1.1.0 更新內容",
+				"zh-TW" : "版本 1.1.0 更新內容",
+				"zh-HK" : "版本 1.1.0 更新內容"
 			},
 			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0",
 			"action_type" : "none",
 			"action_value" : "",
 			"policy" : {
 				"enable" : "false",
-				"release" : "false",
+				"release" : "true",
 				"specificTime" : "",
 				"showOnStart" : "true",
 				"delayHours" : "0",

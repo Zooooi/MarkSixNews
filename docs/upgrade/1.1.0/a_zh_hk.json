@@ -5,19 +5,7 @@
     "crossAxisAlignment":"center"
   },
   "children": [
-    {
-      "type": "Tag",
-      "attributes": {
-        "text": "此訊息只顯示一次！",
-        "style": "tt.labelLarge",
-        "color": "wc.activeColor",
-        "textColor": "tc.primary",
-        "borderRadius": "radius_1",
-        "alignment": "center",
-        "padding": "padding_3",
-        "borderRadius": "radius_2"
-      }
-    },
+
     {
       "type": "SizedBox",
       "attributes": {
@@ -78,9 +66,10 @@
     {
       "type": "Card",
       "attributes": {
-        "border": "wc.borderColor1",
+        "color": "wc.borderColor1",
         "borderRadius": "radius_2",
         "padding": "padding_3"
+
       },
       "child": {
         "type": "Column",

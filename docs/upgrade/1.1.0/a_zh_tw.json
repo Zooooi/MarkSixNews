@@ -6,19 +6,6 @@
   },
   "children": [
     {
-      "type": "Tag",
-      "attributes": {
-        "text": "此訊息僅顯示一次！",
-        "style": "tt.labelLarge",
-        "color": "wc.activeColor",
-        "textColor": "tc.primary",
-        "borderRadius": "radius_1",
-        "alignment": "center",
-        "padding": "padding_3",
-        "borderRadius": "radius_2"
-      }
-    },
-    {
       "type": "SizedBox",
       "attributes": {
         "height": "space_2"
