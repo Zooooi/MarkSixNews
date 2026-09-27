@@ -1,0 +1,36 @@
+{
+  "tutorials": [
+    {
+      "category": "Basic Tutorials",
+      "items": [
+        {
+          "title": "Filter Numbers",
+          "path": "filter_numbers_1",
+          "description": "Use the Number Filter on the home page to generate 4 combinations ignoring cold numbers over 100 draws, and add them to simulated draw checking.",
+          "youtubeUrl": "",
+          "images": [
+            {
+              "url": "1.png",
+              "caption": "Enter the Number Filter page: 1. Select 'Non-repeating'; 2. Go to the Statistics page."
+            },
+            {
+              "url": "2.png",
+              "caption": "1. Select 100 draws; 2. Tap to sort by frequency; 3. Tap the latter half of numbers once to exclude them (tap again to set as banker, tap twice more to exclude)."
+            },
+            {
+              "url": "3.png",
+              "caption": "1. Tap the center button directly to generate a set of non-repeating numbers; 2. Option to select 7 numbers per entry for multiple entries; 3. Tap the heart icon to save (can tap multiple times)."
+            },
+            {
+              "url": "4.png",
+              "caption": "1. Enter the 4th Record/Draw Checking page to view saved numbers awaiting simulated checking; 2. The system will automatically execute draw checking tasks during this time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "More Tutorials Coming Soon"
+    }
+  ]
+}

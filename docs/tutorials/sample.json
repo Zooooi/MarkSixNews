@@ -1,0 +1,50 @@
+{
+  "tutorials": [
+    {
+      "category": "基礎入門教學",
+      "items": [
+        {
+          "title": "如何建立第一個專案",
+          "path": "item_001",
+          "description": "本章節將帶你了解從零開始建立專案的完整步驟。",
+          "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "images": [
+            {
+              "url": "step1.png",
+              "caption": "步驟 1：點擊右上角的「新增專案」按鈕"
+            },
+            {
+              "url": "step2.png",
+              "caption": "步驟 2：填寫專案名稱與基本設定"
+            }
+          ]
+        },
+        {
+          "id": "item_002",
+          "path": "item_002",
+          "title": "觀看影片導覽",
+          "description": "僅包含 YouTube 影音教學範例。",
+          "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "images": []
+        }
+      ]
+    },
+    {
+      "category": "進階功能說明",
+      "items": [
+        {
+          "path": "item_003",
+          "title": "圖文範例說明",
+          "description": "僅包含圖文集，無 YouTube 影片。",
+          "youtubeUrl": "",
+          "images": [
+            {
+              "url": "advanced_settings.png",
+              "caption": "進階設定頁面預覽"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
