@@ -65,8 +65,7 @@
     {
       "type": "Card",
       "attributes": {
-        
-        "color": "wc.borderColor1",
+        "color": "wc.secondary",
         "borderRadius": "radius_2",
         "padding": "padding_3"
       },
