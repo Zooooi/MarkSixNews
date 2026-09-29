@@ -76,7 +76,7 @@
                   "attributes": {
                     "text": "六合彩統計",
                     "style": "tt.titleMedium",
-                    "color": "tc.helpInfo"
+                    "color": "tc.secondary"
                   }
                 },
                 {
@@ -90,7 +90,7 @@
                   "attributes": {
                     "text": "Mark 6 Stats",
                     "style": "tt.titleMedium",
-                    "color": "tc.helpInfo"
+                    "color": "tc.secondary"
                   }
                 },
                 {
