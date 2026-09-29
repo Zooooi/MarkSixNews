@@ -131,7 +131,7 @@
       "attributes": {
         "title": "PAGE 1",
         "titleStyle": "tt.labelLarge",
-        "titleColor": "tc.third",
+        "titleColor": "tc.secondary",
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -174,7 +174,7 @@
       "attributes": {
         "title": "PAGE 2",
         "titleStyle": "tt.labelLarge",
-        "titleColor": "tc.third",
+        "titleColor": "tc.secondary",
         
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
@@ -218,7 +218,7 @@
       "attributes": {
         "title": "PAGE 3",
         "titleStyle": "tt.labelLarge",
-        "titleColor": "tc.third",
+        "titleColor": "tc.secondary",
         
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
@@ -262,7 +262,7 @@
       "attributes": {
         "title": "PAGE 4",
         "titleStyle": "tt.labelLarge",
-        "titleColor": "tc.third",
+        "titleColor": "tc.secondary",
         
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
@@ -306,7 +306,7 @@
       "attributes": {
         "title": "PAGE 5",
         "titleStyle": "tt.labelLarge",
-        "titleColor": "tc.third",
+        "titleColor": "tc.secondary",
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
