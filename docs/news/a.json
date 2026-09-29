@@ -13,15 +13,7 @@
 			"action_value" : "",
 			"policy" : {
 				"enable" : "false",
-				"release" : "true",
-				"specificTime" : "",
-				"showOnStart" : "true",
-				"delayHours" : "0",
-				"intervalHours" : "12",
-				"maxCount" : "1",
-				"maxCountPerDay" : "1",
-				"force" : "false",
-				"showNeverAgain" : "false",
+				"release" : "false",
 				"expired" : "2026-08-20"
 			}
 			
