@@ -23,11 +23,6 @@
 				"force" : "false",
 				"showNeverAgain" : "false",
 				"expired" : "2026-08-20"
-			},
-			"layout" : {
-				"width" : "0",
-				"height" : "0",
-				"padding" : "16.0"
 			}
 		}
 	],
