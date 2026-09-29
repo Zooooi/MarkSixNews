@@ -4,8 +4,8 @@
 ## 1.1.0 之前
 - 載入 `main.json`
 ## 1.1.0 之後
-- 載入 `a.json` 和 `i.json`
-- 載入 `p.json` (最新消息頁面)
+- 載入 `a_news.json` 和 `i_news.json`
+- 載入 `a_menu.json` 和 `i_menu.json` (最新消息頁面)
 
 # Flutter 動態公告推送系統 (進階政策與外觀控制版)
 
