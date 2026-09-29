@@ -73,7 +73,7 @@
                 "attributes": {
                   "text": "Mark 6 Stats",
                   "style": "tt.titleMedium",
-                  "color": "tc.secondary"
+                  "color": "tc.helpInfo"
                 }
               },
               {
