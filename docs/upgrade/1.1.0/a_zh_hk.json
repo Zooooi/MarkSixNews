@@ -83,35 +83,35 @@
                   "attributes": {
                     "text": "請到Google Play搜尋 ",
                     "style": "tt.bodyMedium",
-                    "color": "tc.secondary"
+                    "color": "tc.primary"
                   }
                 },
                 {
                   "attributes": {
                     "text": "六合彩統計",
                     "style": "tt.titleMedium",
-                    "color": "tc.primary"
+                    "color": "tc.secondary"
                   }
                 },
                 {
                   "attributes": {
                     "text": " 或 ",
                     "style": "tt.bodyMedium",
-                    "color": "tc.secondary"
+                    "color": "tc.primary"
                   }
                 },
                 {
                   "attributes": {
                     "text": "Mark 6 Stats",
                     "style": "tt.titleMedium",
-                    "color": "tc.primary"
+                    "color": "tc.secondary"
                   }
                 },
                 {
                   "attributes": {
                     "text": " 更新",
                     "style": "tt.bodyMedium",
-                    "color": "tc.secondary"
+                    "color": "tc.primary"
                   }
                 }
               ]

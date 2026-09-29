@@ -80,21 +80,21 @@
                 "attributes": {
                   "text": "Please search ",
                   "style": "tt.bodyMedium",
-                  "color": "tc.secondary"
+                  "color": "tc.primary"
                 }
               },
               {
                 "attributes": {
                   "text": "Mark 6 Stats",
                   "style": "tt.titleMedium",
-                  "color": "tc.primary"
+                  "color": "tc.secondary"
                 }
               },
               {
                 "attributes": {
                   "text": " in Google Play to update",
                   "style": "tt.bodyMedium",
-                  "color": "tc.secondary"
+                  "color": "tc.primary"
                 }
               }
             ]
