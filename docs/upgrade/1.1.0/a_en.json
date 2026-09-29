@@ -31,24 +31,10 @@
         "mainAxisAlignment":"center"
       },
       "children": [
-         {
-          "type": "Text",
-          "attributes": {
-            "text": "Version 1.0.0 ➔ 1.1.0",
-            "style": "tt.bodySmall",
-            "color": "tc.helpInfo"
-          }
-        },
-        {
-          "type": "SizedBox",
-          "attributes": {
-            "width": "space_2"
-          }
-        },
         {
           "type": "Text",
           "attributes": {
-            "text": "2026-08-20",
+            "text": "Published on 2026-08-20",
             "style": "tt.bodySmall",
             "color": "tc.helpInfo"
           }
