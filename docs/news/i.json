@@ -11,6 +11,7 @@
 			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0",
 			"policy" : {
 				"enable" : "false",
+				"release" : "false",
 				"expired" : "2026-08-20"
 			}
 		}
