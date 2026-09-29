@@ -9,8 +9,6 @@
 				"zh-HK" : "版本 1.1.0 更新內容"
 			},
 			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0",
-			"action_type" : "none",
-			"action_value" : "",
 			"policy" : {
 				"enable" : "false",
 				"release" : "false",
