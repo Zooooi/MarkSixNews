@@ -81,7 +81,7 @@
                   "attributes": {
                     "text": "请前往 Google Play 搜索 ",
                     "style": "tt.bodyMedium",
-                    "color": "tc.primary"
+                    "color": "tc.secondary"
                   }
                 },
                 {
@@ -95,7 +95,7 @@
                   "attributes": {
                     "text": " 或 ",
                     "style": "tt.bodyMedium",
-                    "color": "tc.primary"
+                    "color": "tc.secondary"
                   }
                 },
                 {
@@ -109,7 +109,7 @@
                   "attributes": {
                     "text": " 进行更新",
                     "style": "tt.bodyMedium",
-                    "color": "tc.primary"
+                    "color": "tc.secondary"
                   }
                 }
               ]
@@ -396,7 +396,7 @@
             "attributes": {
               "text": "请打开 Google Play，搜索：六合彩统计 或 Mark 6 Stats。点击进入页面完成更新，顺便给个五星好评吧！",
               "style": "tt.bodyMedium",
-              "color": "tc.primary"
+              "color": "tc.secondary"
             }
           },
           {

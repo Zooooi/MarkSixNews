@@ -80,7 +80,7 @@
                 "attributes": {
                   "text": "Please search ",
                   "style": "tt.bodyMedium",
-                  "color": "tc.primary"
+                  "color": "tc.secondary"
                 }
               },
               {
@@ -94,7 +94,7 @@
                 "attributes": {
                   "text": " in Google Play to update",
                   "style": "tt.bodyMedium",
-                  "color": "tc.primary"
+                  "color": "tc.secondary"
                 }
               }
             ]
@@ -377,7 +377,7 @@
             "attributes": {
               "text": "Search Mark 6 Stats on Google Play to update, and please leave us a star review!",
               "style": "tt.bodyMedium",
-              "color": "tc.primary"
+              "color": "tc.secondary"
             }
           },
           {
