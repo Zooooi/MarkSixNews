@@ -183,7 +183,7 @@
               "tag": "1: THEME & DYNAMIC UI",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
-              "content": "[IN DEVELOPMENT] Providing 18 theme color schemes (including Light and Dark modes), supporting real-time preview and instant application. Refactoring adaptive UI layouts to completely fix layout issues on mobile devices under large text settings.",
+              "content": "[Completed] Providing 18 theme color schemes (including Light and Dark modes), supporting real-time preview and instant application. Refactoring adaptive UI layouts to completely fix layout issues on mobile devices under large text settings.",
               "contentStyle": "tt.bodySmall",
               "contentColor": "tc.secondary"
             }

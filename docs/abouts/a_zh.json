@@ -183,7 +183,7 @@
               "tag": "1：主题与动态 UI",
               "tagStyle": "tt.labelSmall",
               "tagColor": "wc.activeColor",
-              "content": "【正在开发】提供 18 款主题配色（含光暗模式），支持选择时实时预览与套用；重构自适应 UI 界面，彻底修复移动设备在设置大字体下的排版错乱问题。",
+              "content": "【已完成】提供 18 款主题配色（含光暗模式），支持选择时实时预览与套用；重构自适应 UI 界面，彻底修复移动设备在设置大字体下的排版错乱问题。",
               "contentStyle": "tt.bodySmall",
               "contentColor": "tc.secondary"
             }
