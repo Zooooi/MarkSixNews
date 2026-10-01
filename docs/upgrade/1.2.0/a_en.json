@@ -1,0 +1,360 @@
+{
+  "type": "Column",
+  "attributes": {
+    "padding": "padding_3",
+    "crossAxisAlignment": "center"
+  },
+  "children": [
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Major Update: Version 1.2.0",
+        "style": "tt.titleLarge",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_1"
+      }
+    },
+    {
+      "type": "Row",
+      "attributes": {
+        "height": "space_1",
+        "mainAxisAlignment": "center"
+      },
+      "children": [
+        {
+          "type": "Text",
+          "attributes": {
+            "text": "Published on 2026-10-02",
+            "style": "tt.bodySmall",
+            "color": "tc.helpInfo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RichText",
+            "attributes": {
+              "textAlign": "center",
+              "spans": [
+                {
+                  "attributes": {
+                    "text": "Please search ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "Mark 6 Stats",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " on Google Play to update",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "18 Theme Colors Available (Including Light & Dark Modes)",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Supports live preview and instant apply when selecting. Fully rebuilt adaptive UI that completely fixes layout issues on mobile devices when large font size is enabled.",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/1.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Tap \"Color & Font\" to open the theme switcher window, where you can freely choose from different color themes and font sizes.",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/2.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Side Menu Upgrade",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "The side menu has been upgraded to a bottom icon button menu. In addition to the \"Color & Font\" introduced above, two new sections, \"What's New\" and \"How to Use\", have been added. \"What's New\" will cover the latest updates and notifications, with important development plans listed under \"About\"; \"How to Use\" introduces feature combinations through images and videos, with tutorials updated continuously.",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/3.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Two new settings added: 1. Minimalist Mode, allowing users to focus on frequently used pages; 2. Random Theme, which loads a different theme randomly each time the app is launched.",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/4.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "border": "wc.borderColor3",
+        "borderRadius": "radius_3",
+        "padding": "padding_4"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RatingBar"
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "Search \"Mark 6 Stats\" on App Store / Google Play to update and please leave a five-star review!",
+              "style": "tt.bodyMedium",
+              "color": "tc.secondary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_1"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "(Or feel free to leave a review next time — development for this app never stops...)",
+              "style": "tt.bodySmall",
+              "color": "tc.helpInfo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Mark 6 Stats • Version 1.2.0 Update Announcement",
+        "textAlign": "center",
+        "style": "tt.labelSmall",
+        "color": "tc.helpInfo"
+      }
+    }
+  ]
+}

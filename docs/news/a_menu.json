@@ -1,5 +1,15 @@
 {
 	"news" : [
+			{
+			"id" : "new_version_1.2.0",
+			"title" : {
+				"en" : "Latest Version 1.2.0 Update Notes",
+				"zh" : "最新版本 1.2.0 更新內容",
+				"zh-TW" : "最新版本 1.2.0 更新內容",
+				"zh-HK" : "最新版本 1.2.0 更新內容"
+			},
+			"html_url" : "https://n.mark6stats.com/upgrade/1.2.0"
+		},
 		{
 			"id" : "new_version_1.1.0",
 			"title" : {

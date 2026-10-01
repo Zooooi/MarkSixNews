@@ -1,0 +1,374 @@
+{
+  "type": "Column",
+  "attributes": {
+    "padding": "padding_3",
+    "crossAxisAlignment": "center"
+  },
+  "children": [
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "重大更新：版本 1.2.0",
+        "style": "tt.titleLarge",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_1"
+      }
+    },
+    {
+      "type": "Row",
+      "attributes": {
+        "height": "space_1",
+        "mainAxisAlignment": "center"
+      },
+      "children": [
+        {
+          "type": "Text",
+          "attributes": {
+            "text": "發布於 2026-10-02",
+            "style": "tt.bodySmall",
+            "color": "tc.helpInfo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RichText",
+            "attributes": {
+              "textAlign": "center",
+              "spans": [
+                {
+                  "attributes": {
+                    "text": "請到Google Play搜尋 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "六合彩統計",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 或 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "Mark 6 Stats",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 更新",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "提供 18 款主題配色（包含淺色同深色模式）",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "揀主題嗰陣可以即時預覽同即刻套用；成個自適應 UI 重新寫過，徹底搞掂咗手機校大字體嗰陣排版亂晒嘅問題。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/1.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "撳「顏色字型」就會彈個主題切換視窗出嚟，唔同顏色主題同字型大細任你揀。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/2.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "側邊選單升級",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "側邊選單升級做底部圖形按鈕選單，除咗上面介紹嘅「顏色字型」之外，仲新增咗「最新消息」、「如何使用」兩個專欄。「最新消息」會介紹 App 嘅最新動向或者其他通知，重要嘅發展方向同規劃會喺「關於」入面列明；「如何使用」會用圖片或者影片介紹唔同功能點樣配搭，教學內容會持續更新。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/3.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "新增咗兩項設定：1. 簡約模式，畀你專注用最常用嘅功能頁面；2. 隨機主題，每次開 App 都會隨機載入唔同主題。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/4.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "border": "wc.borderColor3",
+        "borderRadius": "radius_3",
+        "padding": "padding_4"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RatingBar"
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "請開啟 Google Play，搜尋：六合彩統計 或 Mark 6 Stats。點擊進入頁面完成更新，順便請畀個星星好評啦！",
+              "style": "tt.bodyMedium",
+              "color": "tc.secondary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_1"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "（當然留返下次先畀星星評論都得，因為呢個 App 嘅開發永不止於此……）",
+              "style": "tt.bodySmall",
+              "color": "tc.helpInfo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Mark 6 Stats • Version 1.2.0 更新公告",
+        "textAlign": "center",
+        "style": "tt.labelSmall",
+        "color": "tc.helpInfo"
+      }
+    }
+  ]
+}

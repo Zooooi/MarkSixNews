@@ -1,0 +1,374 @@
+{
+  "type": "Column",
+  "attributes": {
+    "padding": "padding_3",
+    "crossAxisAlignment": "center"
+  },
+  "children": [
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "重大更新：版本 1.2.0",
+        "style": "tt.titleLarge",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_1"
+      }
+    },
+    {
+      "type": "Row",
+      "attributes": {
+        "height": "space_1",
+        "mainAxisAlignment": "center"
+      },
+      "children": [
+        {
+          "type": "Text",
+          "attributes": {
+            "text": "发布于 2026-10-02",
+            "style": "tt.bodySmall",
+            "color": "tc.helpInfo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RichText",
+            "attributes": {
+              "textAlign": "center",
+              "spans": [
+                {
+                  "attributes": {
+                    "text": "请到Google Play搜索 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "六合彩统计",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 或 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "Mark 6 Stats",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 更新",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "提供 18 款主题配色（包含浅色与深色模式）",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "支持选择时即时预览与套用；全面重构自适应 UI 界面，彻底修复移动设备在大字体设定下的排版错乱问题。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/1.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "点击「颜色字体」即可开启主题切换窗口，可自由选择不同的颜色主题与字体大小。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/2.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "侧边菜单升级",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "侧边菜单升级为底部图形按钮菜单，除上面介绍的「颜色字体」外，还新增「最新消息」、「如何使用」两个专栏。「最新消息」将介绍应用程序的最新动态或其他通知，重要的发展方向与规划将在「关于」中列明；「如何使用」将以图片或影片方式介绍各功能组合，并持续更新教学内容。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/3.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "新增两项设定：1. 简约模式，让使用者专注于常用的功能页面；2. 随机主题，每次开启应用程序时皆会随机载入不同的主题。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.2.0/4.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "border": "wc.borderColor3",
+        "borderRadius": "radius_3",
+        "padding": "padding_4"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RatingBar"
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "请开启 Google Play，搜索：六合彩统计 或 Mark 6 Stats。点击进入页面完成更新，顺便请给予五星好评！",
+              "style": "tt.bodyMedium",
+              "color": "tc.secondary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_1"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "（当然留待下次再给予评论亦可，因为此应用程序的开发永不止于此……）",
+              "style": "tt.bodySmall",
+              "color": "tc.helpInfo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Mark 6 Stats • Version 1.2.0 更新公告",
+        "textAlign": "center",
+        "style": "tt.labelSmall",
+        "color": "tc.helpInfo"
+      }
+    }
+  ]
+}
