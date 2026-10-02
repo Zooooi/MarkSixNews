@@ -140,7 +140,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "支持选择时即时预览与套用；全面重构自适应 UI 界面，彻底修复移动设备在大字体设定下的排版错乱问题。",
+              "text": "点击「颜色字体」即可开启主题切换视窗，可自由选择不同的颜色主题与字体大小。",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -183,7 +183,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "点击「颜色字体」即可开启主题切换窗口，可自由选择不同的颜色主题与字体大小。",
+              "text": "支持选择时即时预览与套用；彻底修复移动设备在大字体设定下的排版错乱问题。",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }

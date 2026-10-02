@@ -1,12 +1,12 @@
 {
 	"news_list" : [
 		{
-			"id" : "new_version_1.1.0",
-			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0",
+			"id" : "new_version_1.2.0",
+			"html_url" : "https://n.mark6stats.com/upgrade/1.2.0",
 			"action_type" : "none",
 			"action_value" : "",
 			"policy" : {
-				"enable" : "false",
+				"enable" : "true",
 				"release" : "true",
 				"specificTime" : "",
 				"showOnStart" : "true",
@@ -16,7 +16,7 @@
 				"maxCountPerDay" : "1",
 				"force" : "false",
 				"showNeverAgain" : "false",
-				"expired" : "2026-08-20"
+				"expired" : "2026-10-30"
 			},
 			"layout" : {
 				"width" : "0",

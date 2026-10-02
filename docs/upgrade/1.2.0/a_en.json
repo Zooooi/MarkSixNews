@@ -126,7 +126,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Supports live preview and instant apply when selecting. Fully rebuilt adaptive UI that completely fixes layout issues on mobile devices when large font size is enabled.",
+              "text": "Tap \"Color & Font\" to open the theme switcher window, where you can freely choose from different color themes and font sizes.",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -169,7 +169,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Tap \"Color & Font\" to open the theme switcher window, where you can freely choose from different color themes and font sizes.",
+              "text": "Supports live preview and instant apply when selecting. Completely fixes layout issues on mobile devices when large font size is enabled.",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
