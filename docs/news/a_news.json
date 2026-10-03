@@ -1,4 +1,31 @@
 {
-	"news" : [],
-	"top" : []
+	"news": [],
+	"top": [{
+			"id": "top_1.2.0_hotfix",
+			"title": {
+				"en": "Urgent Fix for v1.2.0⚠️",
+				"zh": "v1.2.0 緊急修復通知⚠️",
+				"zh-TW": "v1.2.0 緊急修復通知⚠️",
+				"zh-HK": "v1.2.0 緊急修復通知⚠️"
+			},
+			"description": {
+				"en": "Critical bug in new version. If updated before 1PM on 2026-10-03, please search 'Mark 6 Stats' on Play to update again 🙏",
+				"zh": "新版本更新错误，在2026-10-03下午1点前升级的朋友请到Play搜“六合彩统计”再次更新 🙏",
+				"zh-TW": "新版本更新錯誤，在2026-10-03下午1點前升級的朋友請到Play搜“六合彩統計”再次更新 🙏",
+				"zh-HK": "新版本更新錯誤，在2026-10-03下午1點前升級的朋友請到Play搜“六合彩統計”再次更新 🙏"
+			},
+			"policy": {
+				"enable": "true",
+				"release": "true",
+				"specificTime": "",
+				"showOnStart": "true",
+				"delayHours": "0",
+				"intervalHours": "1",
+				"maxCount": "1",
+				"maxCountPerDay": "3",
+				"force": "true",
+				"showNeverAgain": "false",
+				"expired": "2026-10-05"
+			}
+		}]
 }
