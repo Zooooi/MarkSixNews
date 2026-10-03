@@ -23,8 +23,6 @@
 				"intervalHours": "1",
 				"maxCount": "1",
 				"maxCountPerDay": "3",
-				"force": "true",
-				"showNeverAgain": "false",
 				"expired": "2026-10-06"
 			}
 		}]
