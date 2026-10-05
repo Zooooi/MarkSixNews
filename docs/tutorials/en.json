@@ -1,18 +1,18 @@
 {
   "tutorials": [
     {
-      "category": "Basic Tutorials",
+      "category": "Basics",
       "items": [
         {
-          "title": "Generate non-repeating combinations",
-          "description": "Use the Number Filter on the home page to generate 4 combinations ignoring cold numbers over 100 draws, and add them to simulated draw checking.",
+          "title": "Filter Number Combos",
+          "description": "From filtering, locking bankers, stats to generating and saving, learn how to generate multiple non-duplicate sets at once.",
           "path": "filter_numbers_1",
           "youtubeUrl": ""
         }
       ]
     },
     {
-      "category": "More Tutorials Coming Soon"
+      "category": "More tutorials coming soon"
     }
   ]
 }

@@ -4,8 +4,8 @@
       "category": "基础教学",
       "items": [
         {
-          "title": "产生不重复组合",
-          "description": "使用首页的筛选号码功能，将100期冷门号码忽略情况产生4个组合，加入到模拟对奖中",
+          "title": "筛选号码组合",
+          "description": "从筛选、锁定码胆、统计到出票和记录，教你一次性生成多组不重复的号码。",
           "path": "filter_numbers_1",
           "youtubeUrl": ""
         }

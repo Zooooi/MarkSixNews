@@ -4,8 +4,8 @@
       "category": "基礎教學",
       "items": [
         {
-          "title": "產生不重複組合",
-          "description": "使用首頁的篩選號碼功能，將100期冷門號碼忽略情況產生4個組合，加入到模擬對獎中",
+          "title": "篩選號碼組合",
+          "description": "從篩選、鎖定碼膽、統計到出票與紀錄，教你一次產生多組不重複的號碼。",
           "path": "filter_numbers_1",
           "youtubeUrl": ""
         }

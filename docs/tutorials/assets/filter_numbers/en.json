@@ -1,0 +1,10 @@
+{
+  "images": [
+    { "url": "1.webp", "caption": "➊ Tap once to ignore this number; ➋ Tap again to lock it as Banker; ➌ Tap to enter Stats page" },
+    { "url": "2.webp", "caption": "➊ Change draws and the hit frequency will update; ➋ Sort by frequency from high to low" },
+    { "url": "3.webp", "caption": "➊ Tap the main button to generate 10 sets of 6 random numbers with current filters" },
+    { "url": "4.webp", "caption": "➊➋ Change count and rows to make a multiple bet; ➌ Save numbers and find them in History" },
+    { "url": "5.webp", "caption": "➊➋➌ Restore the status of the corresponding numbers; ➍ Generate non-duplicate combinations" },
+    { "url": "5.webp", "caption": "Above shows 2 sets of non-duplicate numbers generated" }
+  ]
+}
