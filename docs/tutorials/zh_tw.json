@@ -6,7 +6,7 @@
         {
           "title": "篩選號碼組合",
           "description": "從篩選、鎖定碼膽、統計到出票與紀錄，教你一次產生多組不重複的號碼。",
-          "path": "filter_numbers_1",
+          "path": "filter_numbers",
           "youtubeUrl": ""
         }
       ]
