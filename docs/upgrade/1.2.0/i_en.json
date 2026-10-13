@@ -79,7 +79,7 @@
                 },
                 {
                   "attributes": {
-                    "text": " on Google Play to update",
+                    "text": " on Apple Store to update",
                     "style": "tt.bodyMedium",
                     "color": "tc.primary"
                   }
@@ -319,7 +319,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Search \"Mark 6 Stats\" on App Store / Google Play to update and please leave a five-star review!",
+              "text": "Search \"Mark 6 Stats\" on App Store / Apple Store to update and please leave a five-star review!",
               "style": "tt.bodyMedium",
               "color": "tc.secondary"
             }

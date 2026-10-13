@@ -65,7 +65,7 @@
               "spans": [
                 {
                   "attributes": {
-                    "text": "请到Google Play搜索 ",
+                    "text": "请到Apple Store搜索 ",
                     "style": "tt.bodyMedium",
                     "color": "tc.primary"
                   }
@@ -333,7 +333,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "请开启 Google Play，搜索：六合彩统计 或 Mark 6 Stats。点击进入页面完成更新，顺便请给予五星好评！",
+              "text": "请开启 Apple Store，搜索：六合彩统计 或 Mark 6 Stats。点击进入页面完成更新，顺便请给予五星好评！",
               "style": "tt.bodyMedium",
               "color": "tc.secondary"
             }
