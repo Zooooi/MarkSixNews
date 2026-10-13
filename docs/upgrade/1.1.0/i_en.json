@@ -78,7 +78,7 @@
               },
               {
                 "attributes": {
-                  "text": " in Google Play to update",
+                  "text": " in Apple Store to update",
                   "style": "tt.bodyMedium",
                   "color": "tc.primary"
                 }
@@ -361,7 +361,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Search Mark 6 Stats on Google Play to update, and please leave us a star review!",
+              "text": "Search Mark 6 Stats on Apple Store to update, and please leave us a star review!",
               "style": "tt.bodyMedium",
               "color": "tc.secondary"
             }

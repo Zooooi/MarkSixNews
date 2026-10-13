@@ -65,7 +65,7 @@
               "spans": [
                 {
                   "attributes": {
-                    "text": "請至 Google Play 搜尋 ",
+                    "text": "請至 Apple Store 搜尋 ",
                     "style": "tt.bodyMedium",
                     "color": "tc.primary"
                   }
@@ -380,7 +380,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "請開啟 Google Play，搜尋：六合彩統計 或 Mark 6 Stats。點擊進入頁面完成更新，順便給個五星好評吧！",
+              "text": "請開啟 Apple Store，搜尋：六合彩統計 或 Mark 6 Stats。點擊進入頁面完成更新，順便給個五星好評吧！",
               "style": "tt.bodyMedium",
               "color": "tc.secondary"
             }
