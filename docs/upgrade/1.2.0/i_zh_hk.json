@@ -14,7 +14,7 @@
     {
       "type": "Text",
       "attributes": {
-        "text": "重大更新：版本 1.2.0",
+        "text": "版本 1.2.0 更新內容",
         "style": "tt.titleLarge",
         "color": "tc.primary"
       }
@@ -49,71 +49,9 @@
       }
     },
     {
-      "type": "Card",
-      "attributes": {
-        "color": "wc.secondary",
-        "borderRadius": "radius_2",
-        "padding": "padding_3"
-      },
-      "child": {
-        "type": "Column",
-        "children": [
-          {
-            "type": "RichText",
-            "attributes": {
-              "textAlign": "center",
-              "spans": [
-                {
-                  "attributes": {
-                    "text": "請到Apple Store搜尋 ",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": "六合彩統計",
-                    "style": "tt.titleMedium",
-                    "color": "tc.secondary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": " 或 ",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": "Mark 6 Stats",
-                    "style": "tt.titleMedium",
-                    "color": "tc.secondary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": " 更新",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_4"
-      }
-    },
-    {
       "type": "Text",
       "attributes": {
-        "text": "提供 18 款主題配色（包含淺色同深色模式）",
+        "text": "提供 18 款主題配色（包含淺色與深色模式）",
         "style": "tt.titleMedium",
         "color": "tc.primary"
       }
@@ -183,7 +121,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "即時預覽同時套用所選擇嘅主題；徹底解決手機設置大字體時排版亂曬嘅問題。",
+              "text": "支援即時預覽並同步套用所選主題；徹底解決手機設定大字體時排版錯亂的問題。",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -240,7 +178,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "側邊選單升級做底部圖形按鈕選單，除咗上面介紹嘅「顏色字型」之外，仲新增咗「最新消息」、「如何使用」兩個專欄。「最新消息」會介紹 App 嘅最新動向或者其他通知，重要嘅發展方向同規劃會喺「關於」入面列明；「如何使用」會用圖片或者影片介紹唔同功能點樣配搭，教學內容會持續更新。",
+              "text": "側邊選單升級為底部圖形按鈕選單，新增「最新消息」與「如何使用」專欄。「最新消息」介紹最新功能與通知；「如何使用」以圖文及影片示範功能搭配操作。",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -283,7 +221,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "新增咗兩項設定：1. 簡約模式，畀你專注用最常用嘅功能頁面；2. 隨機主題，每次開 App 都會隨機載入唔同主題。",
+              "text": "新增兩項設定：1. 簡約模式，專注於常用功能頁面；2. 隨機主題，每次開啟 App 自動載入不同主題。",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -311,60 +249,9 @@
       }
     },
     {
-      "type": "Card",
-      "attributes": {
-        "color": "wc.secondary",
-        "border": "wc.borderColor3",
-        "borderRadius": "radius_3",
-        "padding": "padding_4"
-      },
-      "child": {
-        "type": "Column",
-        "children": [
-          {
-            "type": "RatingBar"
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_2"
-            }
-          },
-          {
-            "type": "Text",
-            "attributes": {
-              "text": "請開啟 Apple Store，搜尋：六合彩統計 或 Mark 6 Stats。點擊進入頁面完成更新，順便請畀個星星好評啦！",
-              "style": "tt.bodyMedium",
-              "color": "tc.secondary"
-            }
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_1"
-            }
-          },
-          {
-            "type": "Text",
-            "attributes": {
-              "text": "（當然留返下次先畀星星評論都得，因為呢個 App 嘅開發永不止於此……）",
-              "style": "tt.bodySmall",
-              "color": "tc.helpInfo"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_4"
-      }
-    },
-    {
       "type": "Text",
       "attributes": {
-        "text": "Mark 6 Stats • Version 1.2.0 更新公告",
+        "text": "Mark 6 Stats • Version 1.2.0 更新日誌",
         "textAlign": "center",
         "style": "tt.labelSmall",
         "color": "tc.helpInfo"

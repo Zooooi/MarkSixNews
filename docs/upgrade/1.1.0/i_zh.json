@@ -49,68 +49,6 @@
       }
     },
     {
-      "type": "Card",
-      "attributes": {
-        "color": "wc.secondary",
-        "borderRadius": "radius_2",
-        "padding": "padding_3"
-      },
-      "child": {
-        "type": "Column",
-        "children": [
-          {
-            "type": "RichText",
-            "attributes": {
-              "textAlign": "center",
-              "spans": [
-                {
-                  "attributes": {
-                    "text": "请前往 Apple Store 搜索 ",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": "六合彩统计",
-                    "style": "tt.titleMedium",
-                    "color": "tc.secondary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": " 或 ",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": "Mark 6 Stats",
-                    "style": "tt.titleMedium",
-                    "color": "tc.secondary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": " 进行更新",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_4"
-      }
-    },
-    {
       "type": "Text",
       "attributes": {
         "text": "页面功能升级",
@@ -130,7 +68,6 @@
         "title": "PAGE 1",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -174,7 +111,6 @@
         "title": "PAGE 2",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -218,7 +154,6 @@
         "title": "PAGE 3",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -262,7 +197,6 @@
         "title": "PAGE 4",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -306,7 +240,6 @@
         "title": "PAGE 5",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -358,60 +291,9 @@
       }
     },
     {
-      "type": "Card",
-      "attributes": {
-        "color": "wc.secondary",
-        "border": "wc.borderColor3",
-        "borderRadius": "radius_3",
-        "padding": "padding_4"
-      },
-      "child": {
-        "type": "Column",
-        "children": [
-          {
-            "type": "RatingBar"
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_2"
-            }
-          },
-          {
-            "type": "Text",
-            "attributes": {
-              "text": "请打开 Apple Store，搜索：六合彩统计 或 Mark 6 Stats。点击进入页面完成更新，顺便给个五星好评吧！",
-              "style": "tt.bodyMedium",
-              "color": "tc.secondary"
-            }
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_1"
-            }
-          },
-          {
-            "type": "Text",
-            "attributes": {
-              "text": "（当然留到下次再给评分也没问题，因为这款 App 的开发永不止步……）",
-              "style": "tt.bodySmall",
-              "color": "tc.helpInfo"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_4"
-      }
-    },
-    {
       "type": "Text",
       "attributes": {
-        "text": "Mark 6 Stats • Version 1.1.0 更新公告",
+        "text": "Mark 6 Stats • Version 1.1.0 更新日志",
         "textAlign": "center",
         "style": "tt.labelSmall",
         "color": "tc.helpInfo"

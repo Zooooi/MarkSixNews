@@ -2,10 +2,9 @@
   "type": "Column",
   "attributes": {
     "padding": "padding_3",
-    "crossAxisAlignment":"center"
+    "crossAxisAlignment": "center"
   },
   "children": [
-
     {
       "type": "SizedBox",
       "attributes": {
@@ -15,7 +14,7 @@
     {
       "type": "Text",
       "attributes": {
-        "text": "重大更新：版本 1.1.0",
+        "text": "版本 1.1.0 更新內容",
         "style": "tt.titleLarge",
         "color": "tc.primary"
       }
@@ -30,7 +29,7 @@
       "type": "Row",
       "attributes": {
         "height": "space_1",
-        "mainAxisAlignment":"center"
+        "mainAxisAlignment": "center"
       },
       "children": [
         {
@@ -47,69 +46,6 @@
       "type": "SizedBox",
       "attributes": {
         "height": "space_3"
-      }
-    },
-    {
-      "type": "Card",
-      "attributes": {
-        "color": "wc.secondary",
-        "borderRadius": "radius_2",
-        "padding": "padding_3"
-
-      },
-      "child": {
-        "type": "Column",
-        "children": [
-          {
-            "type": "RichText",
-            "attributes": {
-              "textAlign": "center",
-              "spans": [
-                {
-                  "attributes": {
-                    "text": "請到 Apple Store 搜尋 ",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": "六合彩統計",
-                    "style": "tt.titleMedium",
-                    "color": "tc.secondary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": " 或 ",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": "Mark 6 Stats",
-                    "style": "tt.titleMedium",
-                    "color": "tc.secondary"
-                  }
-                },
-                {
-                  "attributes": {
-                    "text": " 更新",
-                    "style": "tt.bodyMedium",
-                    "color": "tc.primary"
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_4"
       }
     },
     {
@@ -142,7 +78,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "頁面1：新增大量文字描述；簡約頁面，需要點擊「多期統計」先會顯示相關統計",
+              "text": "頁面1：新增文字描述；簡約介面設計，點擊「多期統計」即可展開顯示相關數據",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -175,7 +111,6 @@
         "title": "PAGE 2",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -186,7 +121,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "頁面2：原有累計次數基礎上新增顯示累進號碼出現次數，由原來只能顯示30個記錄升級到1000記錄",
+              "text": "頁面2：累計次數基礎上新增累進號碼出現次數，顯示容量提升至 1000 期記錄",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -219,7 +154,6 @@
         "title": "PAGE 3",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -230,7 +164,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "頁面 3：新增累進號碼與相隔次數的全屏統計表格，記錄數目可自由調整",
+              "text": "頁面 3：新增累進號碼與相隔次數的全螢幕統計表格，記錄期數可自由調整",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -263,7 +197,6 @@
         "title": "PAGE 4",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -274,7 +207,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "頁面4：新增累進與相隔出現次數統計，並可任意設定連線追蹤，記錄數目自由調整。",
+              "text": "頁面4：新增累進與相隔出現次數統計，支援設定連線追蹤與自訂記錄數目",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -317,7 +250,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "頁面 5：統計數據可自動拆分成多張圖片，分享到社交平台更清晰呈現",
+              "text": "頁面 5：統計數據支援自動拆分為多張圖片匯出，方便社群分享清晰呈現",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -358,60 +291,9 @@
       }
     },
     {
-      "type": "Card",
-      "attributes": {
-        "color": "wc.secondary",
-        "border": "wc.borderColor3",
-        "borderRadius": "radius_3",
-        "padding": "padding_4"
-      },
-      "child": {
-        "type": "Column",
-        "children": [
-          {
-            "type": "RatingBar"
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_2"
-            }
-          },
-          {
-            "type": "Text",
-            "attributes": {
-              "text": "請開啟 Apple Store，搜尋：六合彩統計 或 Mark 6 Stats。點擊進入頁面完成更新，順便請畀個星星好評啦！",
-              "style": "tt.bodyMedium",
-              "color": "tc.secondary"
-            }
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_1"
-            }
-          },
-          {
-            "type": "Text",
-            "attributes": {
-              "text": "（當然留返下次先畀星星評論都得，因為呢個 App 嘅開發永不止於此……）",
-              "style": "tt.bodySmall",
-              "color": "tc.helpInfo"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_4"
-      }
-    },
-    {
       "type": "Text",
       "attributes": {
-        "text": "Mark 6 Stats • Version 1.1.0 更新公告",
+        "text": "Mark 6 Stats • Version 1.1.0 更新日誌",
         "textAlign": "center",
         "style": "tt.labelSmall",
         "color": "tc.helpInfo"

@@ -1,1 +1,28 @@
-{"images":[{"url":"1.webp","caption":"➊ Tap once to ignore this number; ➋ Tap again to lock it as Banker; ➌ Tap to enter Stats page"},{"url":"2.webp","caption":"➊ Change draws and the hit frequency will update; ➋ Sort by frequency from high to low"},{"url":"3.webp","caption":"➊ Tap the main button to generate 10 sets of 6 random numbers with current filters"},{"url":"4.webp","caption":"➊➋ Change count and rows to make a multiple bet; ➌ Save numbers and find them in History"},{"url":"5.webp","caption":"➊➋➌ Restore the status of the corresponding numbers; ➍ Generate non-duplicate combinations"},{"url":"6.webp","caption":"Above shows 2 sets of non-duplicate numbers generated"}]}
+{
+  "images": [
+    {
+      "url": "1.webp",
+      "caption": "➊ Tap once to exclude this digit; ➋ Tap again to lock it (Must-Include); ➌ Tap to enter Statistics page"
+    },
+    {
+      "url": "2.webp",
+      "caption": "➊ Change draws to update hit frequencies; ➋ Sort by frequency from high to low"
+    },
+    {
+      "url": "3.webp",
+      "caption": "➊ Tap the main button to generate 10 data combinations (6 digits each) based on current filters"
+    },
+    {
+      "url": "4.webp",
+      "caption": "➊➋ Adjust count and rows to expand data combination range; ➌ Tap History to view saved combinations"
+    },
+    {
+      "url": "5.webp",
+      "caption": "➊➋➌ Reset selection status of corresponding digits; ➍ Generate non-duplicate data combinations"
+    },
+    {
+      "url": "6.webp",
+      "caption": "Example showing 2 sets of non-duplicate digit combinations generated"
+    }
+  ]
+}

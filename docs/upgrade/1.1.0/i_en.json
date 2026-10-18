@@ -1,7 +1,8 @@
 {
   "type": "Column",
   "attributes": {
-    "padding": "padding_3"
+    "padding": "padding_3",
+    "crossAxisAlignment": "center"
   },
   "children": [
     {
@@ -13,7 +14,7 @@
     {
       "type": "Text",
       "attributes": {
-        "text": "Major Update: Version 1.1.0",
+        "text": "Version 1.1.0 Updates",
         "style": "tt.titleLarge",
         "color": "tc.primary"
       }
@@ -28,7 +29,7 @@
       "type": "Row",
       "attributes": {
         "height": "space_1",
-        "mainAxisAlignment":"center"
+        "mainAxisAlignment": "center"
       },
       "children": [
         {
@@ -45,54 +46,6 @@
       "type": "SizedBox",
       "attributes": {
         "height": "space_3"
-      }
-    },
-    {
-      "type": "Card",
-      "attributes": {
-        "border": "wc.secondary",
-        "borderRadius": "radius_2",
-        "padding": "padding_3"
-      },
-      "child": {
-        "type": "Column",
-        "children": [
-        {
-          "type": "RichText",
-          "attributes": {
-            "textAlign": "center",
-            "spans": [
-              {
-                "attributes": {
-                  "text": "Please search ",
-                  "style": "tt.bodyMedium",
-                  "color": "tc.primary"
-                }
-              },
-              {
-                "attributes": {
-                  "text": "Mark 6 Stats",
-                  "style": "tt.titleMedium",
-                  "color": "tc.secondary"
-                }
-              },
-              {
-                "attributes": {
-                  "text": " in Apple Store to update",
-                  "style": "tt.bodyMedium",
-                  "color": "tc.primary"
-                }
-              }
-            ]
-          }
-        }
-        ]
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_4"
       }
     },
     {
@@ -125,7 +78,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Page 1: Added detailed text descriptions; simplified page, multi-period stats appear only after tapping \"Multi-period Stats\".",
+              "text": "Page 1: Added detailed text descriptions; simplified page layout where multi-period statistics appear upon tapping \"Multi-period Stats\".",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -158,7 +111,6 @@
         "title": "PAGE 2",
         "titleStyle": "tt.labelLarge",
         "titleColor": "tc.secondary",
-        
         "border": "wc.borderColor2",
         "borderRadius": "radius_2",
         "padding": "padding_3"
@@ -169,7 +121,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Page 2: Progressive number statistics added on top of cumulative counts, expanding records from 30 to 1,000.",
+              "text": "Page 2: Added progressive number frequencies on top of cumulative counts, expanding record display capacity up to 1,000 draws.",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -212,7 +164,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Page 3: Added full-screen table for progressive and interval number statistics, with adjustable record counts.",
+              "text": "Page 3: Introduced a full-screen statistics table for progressive and interval frequencies with customizable record limits.",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -255,7 +207,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Page 4: Added progressive and interval statistics with customizable link tracking, and flexible record counts.",
+              "text": "Page 4: Added progressive and interval frequency statistics with support for custom connection tracking and adjustable record ranges.",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -298,7 +250,7 @@
           {
             "type": "Text",
             "attributes": {
-              "text": "Page 5: Statistics can be automatically split into multiple images, making social platform sharing clearer.",
+              "text": "Page 5: Statistical data can now be automatically split into multiple images for clearer sharing on social platforms.",
               "style": "tt.bodyMedium",
               "color": "tc.primary"
             }
@@ -339,60 +291,9 @@
       }
     },
     {
-      "type": "Card",
-      "attributes": {
-        "color": "wc.secondary",
-        "border": "wc.borderColor3",
-        "borderRadius": "radius_3",
-        "padding": "padding_4"
-      },
-      "child": {
-        "type": "Column",
-        "children": [
-          {
-            "type": "RatingBar"
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_2"
-            }
-          },
-          {
-            "type": "Text",
-            "attributes": {
-              "text": "Search Mark 6 Stats on Apple Store to update, and please leave us a star review!",
-              "style": "tt.bodyMedium",
-              "color": "tc.secondary"
-            }
-          },
-          {
-            "type": "SizedBox",
-            "attributes": {
-              "height": "space_1"
-            }
-          },
-          {
-            "type": "Text",
-            "attributes": {
-              "text": "(Or please feel free to leave a star review next time — development for this app goes far beyond this...)",
-              "style": "tt.bodySmall",
-              "color": "tc.helpInfo"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_4"
-      }
-    },
-    {
       "type": "Text",
       "attributes": {
-        "text": "Mark 6 Stats • Version 1.1.0 Update Announcement",
+        "text": "Mark 6 Stats • Version 1.1.0 Release Notes",
         "textAlign": "center",
         "style": "tt.labelSmall",
         "color": "tc.helpInfo"
