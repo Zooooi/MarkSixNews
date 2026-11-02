@@ -135,29 +135,6 @@
       "attributes": {
         "height": "space_3"
       }
-    },
-    {
-      "type": "Card",
-      "attributes": {
-        "borderColor": "wc.borderColor3",
-        "borderWidth": 4,
-        "padding": "padding_5",
-        "borderRadius": "radius_2"
-      },
-      "child": {
-        "type": "Text",
-        "attributes": {
-          "text": "Apple 版應用目前正處於審核階段，敬請耐心等待，我們將在通過後第一時間通知大家。",
-          "style": "tt.bodySmall",
-          "color": "tc.secondary"
-        }
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_3"
-      }
     }
   ]
 }

@@ -135,29 +135,6 @@
       "attributes": {
         "height": "space_3"
       }
-    },
-    {
-      "type": "Card",
-      "attributes": {
-        "borderColor": "wc.borderColor3",
-        "borderWidth": 4,
-        "padding": "padding_5",
-        "borderRadius": "radius_2"
-      },
-      "child": {
-        "type": "Text",
-        "attributes": {
-          "text": "The Apple version is currently under review. Please be patient, and we will notify everyone as soon as it is approved.",
-          "style": "tt.bodySmall",
-          "color": "tc.secondary"
-        }
-      }
-    },
-    {
-      "type": "SizedBox",
-      "attributes": {
-        "height": "space_3"
-      }
     }
   ]
 }
