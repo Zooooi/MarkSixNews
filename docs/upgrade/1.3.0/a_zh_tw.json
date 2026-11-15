@@ -1,0 +1,459 @@
+{
+  "type": "Column",
+  "attributes": {
+    "padding": "padding_3",
+    "crossAxisAlignment": "center"
+  },
+  "children": [
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "重大更新：版本 1.3.0",
+        "style": "tt.titleLarge",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_1"
+      }
+    },
+    {
+      "type": "Row",
+      "attributes": {
+        "height": "space_1",
+        "mainAxisAlignment": "center"
+      },
+      "children": [
+        {
+          "type": "Text",
+          "attributes": {
+            "text": "發布於 2026-11-15",
+            "style": "tt.bodySmall",
+            "color": "tc.helpInfo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RichText",
+            "attributes": {
+              "textAlign": "center",
+              "spans": [
+                {
+                  "attributes": {
+                    "text": "請到Google Play搜尋 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "六合彩統計",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 或 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "Mark 6 Stats",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 更新",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "詳細介紹",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "新增逐步詳細介紹，逐一說明各按鍵功能與操作流程。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/1.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "新增頁面",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "新增兩個頁面：手動對獎和紫先知論壇。每個紀錄都有手動對獎的入口按鍵。右下的八卦形按鍵可進入紫先知論壇。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/2.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "手動對獎",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 3",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "輸入已手上記錄的號碼，點擊數字即時比對當期開獎結果並顯示中獎金額。同樣也有搜尋相似紀錄和記錄儲存功能。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/3.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "紫先知論壇",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 4",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "紫先知論壇運用 AI 綜合分析歷史開獎數據，有8位分別代表不同玄學術數的角色進行推算。從各玄學術數角度提供分析與參考號碼，提供給有選擇困難的使用者多個途徑獲得參考。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/4.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "號碼圖標",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 5",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "每個號碼的圖標代表於不同頁面加入的號碼。例如骰子代表隨機產生、八卦代表論壇收藏、手指代表手動輸入，一眼即可辨識。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/5.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "border": "wc.borderColor3",
+        "borderRadius": "radius_3",
+        "padding": "padding_4"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RatingBar"
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "請開啟 Google Play，搜尋：六合彩統計 或 Mark 6 Stats。點擊進入頁面完成更新，順便請給予五星好評！",
+              "style": "tt.bodyMedium",
+              "color": "tc.secondary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_1"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "（當然留待下次再給予評論亦可，因為此應用程式的開發永不止於此……）",
+              "style": "tt.bodySmall",
+              "color": "tc.helpInfo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Mark 6 Stats • Version 1.3.0 更新公告",
+        "textAlign": "center",
+        "style": "tt.labelSmall",
+        "color": "tc.helpInfo"
+      }
+    }
+  ]
+}

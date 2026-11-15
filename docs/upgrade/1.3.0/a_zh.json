@@ -1,0 +1,459 @@
+{
+  "type": "Column",
+  "attributes": {
+    "padding": "padding_3",
+    "crossAxisAlignment": "center"
+  },
+  "children": [
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "重大更新：版本 1.3.0",
+        "style": "tt.titleLarge",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_1"
+      }
+    },
+    {
+      "type": "Row",
+      "attributes": {
+        "height": "space_1",
+        "mainAxisAlignment": "center"
+      },
+      "children": [
+        {
+          "type": "Text",
+          "attributes": {
+            "text": "发布于 2026-11-15",
+            "style": "tt.bodySmall",
+            "color": "tc.helpInfo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_3"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RichText",
+            "attributes": {
+              "textAlign": "center",
+              "spans": [
+                {
+                  "attributes": {
+                    "text": "请到Google Play搜索 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "六合彩统计",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 或 ",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": "Mark 6 Stats",
+                    "style": "tt.titleMedium",
+                    "color": "tc.secondary"
+                  }
+                },
+                {
+                  "attributes": {
+                    "text": " 更新",
+                    "style": "tt.bodyMedium",
+                    "color": "tc.primary"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "详细介绍",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 1",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "新增逐步详细介绍，逐一说明各按键功能与操作流程。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/1.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "新增页面",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 2",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "新增两个页面：手动兑奖和紫先知论坛。每个记录都有手动兑奖的入口按键。右下的八卦形按键可进入紫先知论坛。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/2.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "手动兑奖",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 3",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "输入已手上记录的号码，点击数字即时比对当期开奖结果并显示中奖金额。同样也有搜索相似记录和记录储存功能。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/3.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "紫先知论坛",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 4",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "紫先知论坛运用 AI 综合分析历史开奖数据，有8位分别代表不同玄学术数的角色进行推算。从各玄学术数角度提供分析与参考号码，提供给有选择困难的使用者多个途径获得参考。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/4.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "号码图标",
+        "style": "tt.titleMedium",
+        "color": "tc.primary"
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_2"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "title": "PAGE 5",
+        "titleStyle": "tt.labelLarge",
+        "titleColor": "tc.secondary",
+        "border": "wc.borderColor2",
+        "borderRadius": "radius_2",
+        "padding": "padding_3"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "每个号码的图标代表于不同页面加入的号码。例如骰子代表随机产生、八卦代表论坛收藏、手指代表手动输入，一眼即可辨识。",
+              "style": "tt.bodyMedium",
+              "color": "tc.primary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Image",
+            "attributes": {
+              "src": "https://n.mark6stats.com/upgrade/1.3.0/5.webp",
+              "borderRadius": "radius_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Card",
+      "attributes": {
+        "color": "wc.secondary",
+        "border": "wc.borderColor3",
+        "borderRadius": "radius_3",
+        "padding": "padding_4"
+      },
+      "child": {
+        "type": "Column",
+        "children": [
+          {
+            "type": "RatingBar"
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_2"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "请开启 Google Play，搜索：六合彩统计 或 Mark 6 Stats。点击进入页面完成更新，顺便请给予五星好评！",
+              "style": "tt.bodyMedium",
+              "color": "tc.secondary"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "attributes": {
+              "height": "space_1"
+            }
+          },
+          {
+            "type": "Text",
+            "attributes": {
+              "text": "（当然留待下次再给予评论亦可，因为此应用程序的开发永不止于此……）",
+              "style": "tt.bodySmall",
+              "color": "tc.helpInfo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "SizedBox",
+      "attributes": {
+        "height": "space_4"
+      }
+    },
+    {
+      "type": "Text",
+      "attributes": {
+        "text": "Mark 6 Stats • Version 1.3.0 更新公告",
+        "textAlign": "center",
+        "style": "tt.labelSmall",
+        "color": "tc.helpInfo"
+      }
+    }
+  ]
+}
