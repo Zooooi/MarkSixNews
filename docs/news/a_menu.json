@@ -3,30 +3,30 @@
 		{
 			"id" : "new_version_1.3.0",
 			"title" : {
-				"en" : "Version 1.3.0 Update Notes",
-				"zh" : "版本 1.3.0 更新內容",
-				"zh-TW" : "版本 1.3.0 更新內容",
-				"zh-HK" : "版本 1.3.0 更新內容"
+				"en" : "Version 1.3.0",
+				"zh" : "版本 1.3.0",
+				"zh-TW" : "版本 1.3.0",
+				"zh-HK" : "版本 1.3.0"
 			},
 			"html_url" : "https://n.mark6stats.com/upgrade/1.3.0"
 		},
 		{
 			"id" : "new_version_1.2.0",
 			"title" : {
-				"en" : "Version 1.2.0 Update Notes",
-				"zh" : "版本 1.2.0 更新內容",
-				"zh-TW" : "版本 1.2.0 更新內容",
-				"zh-HK" : "版本 1.2.0 更新內容"
+				"en" : "Version 1.2.0",
+				"zh" : "版本 1.2.0",
+				"zh-TW" : "版本 1.2.0",
+				"zh-HK" : "版本 1.2.0"
 			},
 			"html_url" : "https://n.mark6stats.com/upgrade/1.2.0"
 		},
 		{
 			"id" : "new_version_1.1.0",
 			"title" : {
-				"en" : "Version 1.1.0 Update Notes",
-				"zh" : "版本 1.1.0 更新內容",
-				"zh-TW" : "版本 1.1.0 更新內容",
-				"zh-HK" : "版本 1.1.0 更新內容"
+				"en" : "Version 1.1.0",
+				"zh" : "版本 1.1.0",
+				"zh-TW" : "版本 1.1.0",
+				"zh-HK" : "版本 1.1.0"
 			},
 			"html_url" : "https://n.mark6stats.com/upgrade/1.1.0"
 		}
